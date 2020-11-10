@@ -1,0 +1,26 @@
+{
+  "name": "empty-parcel-project",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.15.1",
+    "axios": "0.20.0",
+    "bootstrap": "4.5.3",
+    "jquery": "3.5.1"
+  },
+  "devDependencies": {
+    "eslint": "7.11.0",
+    "eslint-config-airbnb-base": "14.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "parcel-bundler": "1.12.4",
+    "parcel-plugin-static-files-copy": "2.5.0",
+    "sass": "1.27.0"
+  }
+}

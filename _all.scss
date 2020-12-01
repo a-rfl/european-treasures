@@ -1,0 +1,51 @@
+$background: #eae7dc;
+$light-red: #e85a4f;
+$dark: #1d1a1a;
+$dark-transparent: rgb(29, 26, 26, 0.75);
+$headline-font: "Andalan Eug";
+$main-font: "Open Sans";
+$h1-fontsize: 50px;
+$h2-fontsize: 20px;
+$h3-font-size: 18px;
+$extra-bold: 800;
+$bold: 700;
+$semi-bold: 600;
+$regular: 500;
+$light: 300;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $background;
+  font-family: $main-font;
+  text-align: center;
+}
+h1 {
+  font-family: $headline-font;
+  color: $light-red;
+  font-size: $h1-fontsize;
+  background-color: $dark-transparent;
+}
+h3 {
+  color: $light-red;
+  font-weight: $semi-bold;
+  font-size: $h3-font-size;
+}
+h2,
+h4 {
+  color: white;
+}
+h4 {
+  font-weight: $semi-bold;
+}
+h2 {
+  font-size: $h2-fontsize;
+  font-weight: $semi-bold;
+}
+p {
+  text-align: justify;
+  padding: 30px;
+}

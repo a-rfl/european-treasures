@@ -560,6 +560,183 @@
       },
       "description": "Lough Tay ou le lac Guinness, est un petit lac pittoresque situé sur une propriété privée dans les montagnes de Wicklow en Irlande. Le lac se situe entre les montagnes de Djouce 725 mètres et Luggala 595 mètres, et est dominé par les falaises de granit orientées à l'est de Luggala.  Le lac est alimenté par la rivière Cloghoge, qui se jette ensuite dans le lac Lough Dan au sud. Lough Tay fait partie du domaine Guinness à Luggala et a un accès public limité. ",
       "images": ["lough_tay1.jpg", "lough_tay2.jpg"]
+    },
+    {
+      "id": 0,
+      "categories": ["lac"],
+      "nom": "Cadagno",
+      "localisation": "46°32′59″N 8°42′41″E",
+      "pays": "Suisse",
+      "dimensions": {
+        "superficie": "26 ha",
+        "longueur": "842 m ",
+        "largeur": "423 m ",
+        "altitude": "1921 m ",
+        "profondeur": "21 m "
+      },
+      "description": "Le lac Cadagno est un lac méromictique (un lac dont les eaux de surface et de profondeur se mélangent moins d'une fois par an), situé dans la vallée de Piora (canton du Tessin), en Suisse. Étant l'un des rares lacs méromictiques d'Europe, il fait l'objet de nombreuses études scientifiques. La vallée de la Piora - située dans le massif du Saint-Gothard (Alpes suisses centrales) dans le sud de la Suisse près d'Airolo à une altitude de 1921 m au-dessus du niveau de la mer - est une vallée alpine enclavée dont la valeur scientifique est reconnue depuis plus de deux siècles . Dans le passé, le lac était utilisé comme réservoir.",
+      "images": ["cadagno1.jpg", "cadagno2.jpg", "cadagno3.jpg"]
+    },
+    {
+      "id": 0,
+      "categories": ["cascade"],
+      "nom": "Sept Soeurs",
+      "localisation": "62° 06′ 25″ N, 7° 05′ 39″ E",
+      "pays": "Norvège",
+      "dimensions": {
+        "hauteur": "410 m ",
+        "largeur": "229 m ",
+        "altitude": "410 m "
+      },
+      "description": "Les Sju Søstre, aussi appelées en bokmål Syv Søstrene, en nynorsk Sju Systrene, toponymes norvégiens signifiant littéralement en français « Sept Sœurs », sont un ensemble de chutes d'eau de Norvège dévalant les parois du Geirangerfjord pour se jeter directement dans le fjord ; cette caractéristique en fait des chutes d'eau côtières. Elles constituent une importante attraction touristique de Norvège, notamment pour les passagers des navires empruntant le Geirangerfjord. ",
+      "images": ["7_sisters1.jpg", "7_sisters2.jpg"]
+    },
+    {
+      "id": 0,
+      "categories": ["cascade"],
+      "nom": "Gavarnie",
+      "localisation": "42°41′36″N 0°00′16″W",
+      "pays": "France",
+      "dimensions": {
+        "hauteur": "422 m ",
+        "largeur": "15 m "
+      },
+      "description": "La cascade de Gavarnie, également appelée grande cascade de Gavarnie, est une chute d'eau du cirque de Gavarnie, cirque glaciaire localisé dans la partie centrale des Pyrénées françaises (département des Hautes-Pyrénées) et appartenant au parc national des Pyrénées. Avec ses 423 mètres de hauteur, la cascade de Gavarnie est la plus haute chute d'eau de France métropolitaine1, et l'une des plus importantes d'Europe.",
+      "images": ["gavarnie.jpg", "gavarnie.jpg"]
+    },
+    {
+      "id": 0,
+      "categories": ["cascade"],
+      "nom": "High Force",
+      "localisation": "54°39′1″N 2°11′15″W",
+      "pays": "Royaume-Uni",
+      "dimensions": {
+        "hauteur": "21 m "
+      },
+      "description": "High Force est une cascade sur la rivière Tees, près de Middleton-in-Teesdale, Teesdale, Angleterre. La cascade se trouve dans la zone de beauté naturelle exceptionnelle des Pennines du Nord et dans le géoparc européen. La cascade se trouve sur la frontière historique du comté entre le North Riding of Yorkshire sur la rive sud et le comté de Durham sur la rive nord. L'ensemble de la rivière Tees plonge de 21 m au-dessus d'un précipice (un bord de falaise presque vertical) en deux temps. Après de fortes pluies, la rivière coulera également sur le canal généralement sec du côté droit, créant deux chutes. Très occasionnellement, le niveau de la rivière sera suffisamment élevé pour s'écouler sur la section centrale de la roche. Lors des hivers rigoureux, on sait que les chutes gèlent, créant des formations de glace en forme de cathédrale.",
+      "images": ["high_force1.jpg", "high_force2.jpg"]
+    },
+    {
+      "id": 0,
+      "categories": ["cascade"],
+      "nom": "Krimml",
+      "localisation": "47° 11′ 53″ N, 12° 10′ 17″ E",
+      "pays": "Autriche",
+      "dimensions": {
+        "hauteur": "385 m ",
+        "altitude": "1090 m "
+      },
+      "description": "Les cascades de Krimml (en allemand : Krimmler Wasserfälle) sont les plus hautes cascades d'Autriche avec une hauteur totale de 385 m. Elles sont situés à la périphérie de la ville de Krimml (land de Salzbourg), dans le parc national Hohe Tauern. Elles sont formés par le Krimmler Ache. L'eau coule ensuite dans la Salzach et atteint finalement l'embouchure de l'Inn. Le torrent, après avoir parcouru un vallon suspendu à 1 470 m d'altitude, se précipite en trois cascades de 145 m, 100 m et 140 m1. Le fait que les niveaux de cascade aient été préservés à cette altitude s’explique par le fait que la cascade se situe sur une zone où la roche (granite) est particulièrement dure (fenêtre des Tauern). ",
+      "images": [
+        "krimml1.jpg",
+        "krimml2.jpg",
+        "krimml3.jpg",
+        "krimml4.jpg",
+        "krimml5.jpg",
+        "krimml6.jpg",
+        "krimml7.jpg"
+      ]
+    },
+    {
+      "id": 0,
+      "categories": ["cascade"],
+      "nom": "Krka",
+      "localisation": "43° 52′ 59″ N, 15° 58′ 59″ E",
+      "pays": "Croatie",
+      "dimensions": {
+        "hauteur": "45,7 m ",
+        "altitude": "242 m"
+      },
+      "description": "Le parc national de la Krka, s'étend à quelques kilomètres de Šibenik, en Croatie sur près de 109 km². Les chutes de la rivière Krka constituent sa principale attraction. Cette rivière, longue de 72 km, est le plus étonnant des cours d'eau du karst croate. Sur les deux tiers de sa longueur elle coule dans de profonds canyons en se frayant sa voie vers la mer Adriatique. Le parc national de la Krka compte sept chutes le long de son parcours, pour une altitude maximale de 242 m. Le plus haut d'entre eux est cascade de Skradin (Skradinski Buk) avec 17 gradins d’une hauteur totale de 45,7m.",
+      "images": [
+        "krka1.jpg",
+        "krka2.jpg",
+        "krka3.jpg",
+        "krka4.jpg",
+        "krka5.jpg",
+        "krka6.jpg"
+      ]
+    },
+    {
+      "id": 0,
+      "categories": ["cascade"],
+      "nom": "Krushuna",
+      "localisation": "43° 14′ 36″ N, 25° 02′ 00″ E",
+      "pays": "Bulgarie",
+      "dimensions": {
+        "hauteur": "15 m ",
+        "altitude": "195 m"
+      },
+      "description": "Krushuna Falls (Крушунски водопади) are a series of waterfalls in Northern Bulgaria, near the village of Krushuna, Letnitsa Municipality, 34 km from the city of Lovech. They are famous with their picturesque landscape and are formed by many travertines.There is a tourist path leading to the cave where the river springs. There are two smaller waterfalls in the area, one of which is called Malkata Maara. Some other caves are also found in the vicinity - Urushka Maara, Gornik, Devetashka cave.Remains of the 13-14th century Hesychast Krushuna Monastery dating from the Second Bulgarian Empire can be found nearby. ",
+      "images": ["krushuna1.jpg", "krushuna2.jpg"]
+    },
+    {
+      "id": 0,
+      "categories": ["cascade"],
+      "nom": "Menzenschwand",
+      "localisation": "47° 50′ 24.0″ N, 8° 03′ 46.1″ E",
+      "pays": "Allemagne",
+      "dimensions": {
+        "hauteur": "30 m "
+      },
+      "description": "Le Menzenschwander wasserfälle est une cascade dans une petite gorge près du petit village de Menzenschwand dans la région du Bade-Wurtemberg, en Allemagne. Un petit ruisseau tombe en cascade dans la gorge mais un petit ruisseau tombe d'une falaise et se termine dans le ruisseau. La descente du ruisseau est d'environ 15 mètres.",
+      "images": ["menzenschwand1.jpg", "menzenschwand2.jpg"]
+    },
+    {
+      "id": 0,
+      "categories": ["cascade"],
+      "nom": "Seljalandsfoss",
+      "localisation": "63°36′57″N 19°59′34″W",
+      "pays": "Islande",
+      "dimensions": {
+        "hauteur": "60 m "
+      },
+      "description": "Seljalandsfoss est une chute d'eau du sud de l'Islande mesurant 65 mètres de hauteur. Elle se trouve à proximité de la chute de la Skogafoss. Sa particularité est la possibilité de passer derrière ce qui offre un nouveau point de vue et la rend plus impressionnante. Au coucher de soleil, la lumière rend l'eau d'une couleur orangée se fondant ainsi à la roche derrière celle-ci. ",
+      "images": [
+        "seljalandsfoss1.jpg",
+        "seljalandsfoss2.jpg",
+        "seljalandsfoss3.jpg",
+        "seljalandsfoss4.jpg",
+        "seljalandsfoss5.jpg",
+        "seljalandsfoss6.jpg",
+        "seljalandsfoss7.jpg",
+        "seljalandsfoss8.jpg",
+        "seljalandsfoss9.jpg"
+      ]
+    },
+    {
+      "id": 0,
+      "categories": ["cascade"],
+      "nom": "Skogafoss",
+      "localisation": "63° 31′ 47″ N, 19° 30′ 50″ W",
+      "pays": "Islande",
+      "dimensions": {
+        "hauteur": "62 m ",
+        "largeur": "25 m "
+      },
+      "description": "Skógafoss (Skógá étant le nom de la rivière, signifiant « forêt », et foss signifiant « la chute d'eau ») est une cascade située sur la rivière Skógá, dans le petit village de Skógar, dans le sud de l'Islande. La rivière Skógá se jette de ses falaises et tombe de 62 mètres1 en formant une chute d'une largeur de quelque 25 mètres. La chute est l'une des plus célèbres et des plus visitées du pays. À l'est de la chute, une piste monte jusqu'au Fimmvörðuháls, un col entre les glaciers Eyjafjallajökull et Mýrdalsjökull. Après, le chemin descend vers Þórsmörk et continue jusqu'au Landmannalaugar, un des plus célèbres et impressionnants sites islandais. ",
+      "images": [
+        "skogafoss1.jpg",
+        "skogafoss2.jpg",
+        "skogafoss3.jpg",
+        "skogafoss4.jpg",
+        "skogafoss5.jpg",
+        "skogafoss6.jpg",
+        "skogafoss7.jpg",
+        "skogafoss8.jpg"
+      ]
+    },
+    {
+      "id": 0,
+      "categories": ["cascade"],
+      "nom": "Staubbach",
+      "localisation": "46° 35′ 22.74″ N, 7° 54′ 19.82″ E",
+      "pays": "Suisse",
+      "dimensions": {
+        "hauteur": "297 m "
+      },
+      "description": "La chute de Staubbach est une cascade en Suisse, située juste à l'ouest au-dessus de Lauterbrunnen dans les hautes terres bernoises. La cascade tombe à 297 mètres d'une vallée suspendue qui se termine par des falaises en surplomb au-dessus de la Weisse Lütschine.Le ruisseau, en atteignant le bord des parois rocheuses de la vallée, forme une cascade si haute qu'elle est presque perdue dans les embruns avant d'atteindre le niveau de la vallée. Après la pluie, et au début de la saison, alimentée par la fonte des neiges, la Staubbach Fall est un objet très frappant. La force du ruisseau au-dessus de la chute à de tels moments est suffisante pour transporter l'eau claire du précipice, et toute la masse descend dans un état de poussière liquide, entre embruns et nuages, qui oscille d'avant en arrière avec la brise la plus douce .",
+      "images": ["staubbach1.jpg", "staubbach2.jpg", "staubbach3.jpg"]
     }
   ]
 }

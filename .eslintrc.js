@@ -20,5 +20,6 @@ module.exports = {
     'no-restricted-syntax': 'off',
     'no-plusplus': 'off',
     'no-loop-func': 'off',
+    'import/prefer-default-export': 'off',
   },
 };

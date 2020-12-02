@@ -1,5 +1,7 @@
 import './style.scss';
- import $ from 'jquery';
+import $ from 'jquery';
 // import axios from 'axios';
-import {header} from "./header"
-document.querySelector('main').innerHTML = header;
+import { header } from './header';
+import { header2 } from './header2';
+
+document.querySelector('header').innerHTML = header2;

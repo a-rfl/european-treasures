@@ -1,2 +1,87 @@
 // @import "@fortawesome/fontawesome-free/css/all.css";
-// @import "node_modules/bootstrap/scss/bootstrap";
+ @import "node_modules/bootstrap/scss/bootstrap";
+ 
+ @font-face {
+    font-family:'Blankid';
+    src:url('fonts/Blankid-ZVyJB.ttf');
+ }
+ *{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+header{
+    background-color: white;
+  
+}
+nav{
+    width: 100%;
+    margin: 0 auto;
+    position: sticky;
+    top: 0px;
+    color: white;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    color: white;
+    background: -webkit-linear-gradient(rgb(63, 65, 65), rgb(90, 92, 92));
+    opacity: 80%;
+   
+}
+
+nav ul li{
+    float: left;
+    width: 16.666%;
+    text-align: center;
+    position: relative;
+}
+
+nav ul::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color:white;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+}
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous a{
+    
+    border-bottom: none;
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+
+}
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 10px;
+}
+.image {
+    width: 60px;
+    height: 60px;
+}
+

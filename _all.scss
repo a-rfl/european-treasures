@@ -1,12 +1,19 @@
+//basic background color:
 $background: #eae7dc;
+//red used for the button and h1
 $light-red: #e85a4f;
+//basic font color
 $dark: #1d1a1a;
+//background for the menu
 $dark-transparent: rgb(29, 26, 26, 0.75);
+// font for h1
 $headline-font: "Andalan Eug";
+// main font and fontsizes for different h
 $main-font: "Open Sans";
 $h1-fontsize: 50px;
 $h2-fontsize: 20px;
 $h3-font-size: 18px;
+// font weights
 $extra-bold: 800;
 $bold: 700;
 $semi-bold: 600;
@@ -20,6 +27,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: $background;
+  color: $dark;
   font-family: $main-font;
   text-align: center;
 }

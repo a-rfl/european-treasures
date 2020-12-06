@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "Andalan Eug";
+  src: url("fonts/Andalan-Eug.woff2") format("woff2"),
+    url("fonts/Andalan-Eug.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+$background: #eae7dc;
+$dark-transparent: rgb(29, 26, 26, 0.75);
+$headline-font: "Andalan Eug";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Andalan Eug";
+  font-size: 24px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $background;
+}
+
+header {
+  height: 70px;
+  background-color: #22292f;
+  padding: 10px 0;
+}
+.menu-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+.image {
+  height: 60px;
+  margin-bottom: 2%;
+}
+.menu-icon {
+  font-size: 1.8em;
+  color: #ffffff;
+  line-height: 50px;
+}
+.navigation-bar {
+  position: absolute;
+  background-color: #3d4852;
+  top: 80px;
+  left: 0;
+  width: 100%;
+
+  ul {
+    list-style-type: none;
+
+    li {
+      padding: 0 10px;
+
+      a {
+        display: inline-block;
+        color: #dae1e7;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:focus {
+        color: #eb6f4a;
+      }
+    }
+  }
+}
+//we need to toggle the menu display by using a hidden checkbox element
+#checkbox {
+  display: none;
+}
+#checkbox:checked ~ .navigation-bar ul {
+  padding: 15px 0;
+  transition: all 0.5s;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .navigation-bar {
+    position: relative;
+    top: -10px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    .navigation-bar-left {
+      width: 30%;
+      margin-right: 60%;
+      ul {
+        padding: 15px 0;
+        text-align: right;
+        li {
+          display: inline-flex;
+          padding-left: 20px;
+        }
+      }
+      .image {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 2%;
+      }
+    }
+
+    .navigation-bar-right {
+      width: 30%;
+      ul {
+        padding: 15px 0;
+        text-align: right;
+        li {
+          display: inline-flex;
+          
+        }
+        //Rend le menu déroulant caché par défaut
+        li ul {
+          display: none;
+        }
+        //Affiche la dropli au survol de la souris
+        li:hover ul {
+          z-index: 99999;
+          display: list-item;
+          position: absolute;
+          margin-top: 5px;
+          margin-left: -35px;
+        }
+      }
+    }
+  }
+  .menu-icon {
+    display: none;
+  }
+  #checkbox:checked ~ .navigation-bar ul {
+    transition: all 0.5s;
+    display: block;
+  }
+}

@@ -1,6 +1,5 @@
 import './style.scss';
 import $ from 'jquery';
-// import axios from 'axios';
-import { header } from './section-header';
+import { header } from './src/services/section-header';
 
 $('header').append(header);

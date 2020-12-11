@@ -1,0 +1,67 @@
+//basic background color:
+$background: #eae7dc;
+//red used for the button and h1
+$light-red: #e85a4f;
+//basic font color
+$dark: #1d1a1a;
+//background for the menu
+$dark-transparent: rgb(29, 26, 26, 0.75);
+// font for h1
+$headline-font: "Andalan Eug";
+// main font and fontsizes for different h
+$main-font: "Open Sans";
+$h1-font-size: 60px;
+$h2-font-size: 50px;
+$h3-font-size: 22px;
+$h4-font-size: 20px;
+$h5-font-size: 18px;
+// font weights
+$extra-bold: 800;
+$bold: 700;
+$semi-bold: 600;
+$regular: 500;
+$light: 300;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $background;
+  color: $dark;
+  font-family: $main-font;
+  text-align: center;
+}
+h1 {
+  font-family: $headline-font;
+  color: white;
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-family: $headline-font;
+  color: $light-red;
+  font-size: $h2-font-size;
+}
+h4 {
+  color: $light-red;
+  font-weight: $semi-bold;
+  font-size: $h4-font-size;
+}
+h3,
+h5 {
+  color: white;
+}
+h5 {
+  font-weight: $semi-bold;
+  font-size: $h5-font-size;
+}
+h3 {
+  font-size: $h3-font-size;
+  font-weight: $semi-bold;
+}
+p {
+  text-align: justify;
+  padding: 30px;
+}

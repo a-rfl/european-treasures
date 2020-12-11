@@ -1,6 +1,5 @@
 // eslint-disable-next-line import/prefer-default-export
 export const header = `
-<header class="menu">
 
 <div class="menu-wrap">
 <img src="logo.png" class ="image">
@@ -24,15 +23,15 @@ export const header = `
 
   <li><a href="#">Contact us</a></li>
   <!-- Début du menu déroulant -->
-  <li><a href="#" >EN</a>
+  <!--<li><a href="#" >EN</a>
 
    <ul>
 <li><a href="#">FR</a></li>
 </ul>
-</li>
+</li>-->
 </ul>
 </nav>
 </div>
 </div>
-</header>
+
 `;

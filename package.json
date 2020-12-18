@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "server": "json-server --watch places.json"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,8 @@
     "@fortawesome/fontawesome-free": "5.15.1",
     "axios": "0.20.0",
     "bootstrap": "4.5.3",
-    "jquery": "3.5.1"
+    "jquery": "3.5.1",
+    "json-server": "^0.16.3"
   },
   "devDependencies": {
     "eslint": "7.11.0",

@@ -2,7 +2,7 @@
 export const header = `
 
 <div class="menu-wrap">
-<img src="./static/logo/logo.png" class ="image">
+<img src="logo/logo.png" class ="image">
 <input type="checkbox" id="checkbox">
 <label for="checkbox">
    <i class="fa fa-bars menu-icon"></i>

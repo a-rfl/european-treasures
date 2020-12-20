@@ -1,37 +1,48 @@
 // eslint-disable-next-line import/prefer-default-export
 export const header = `
 
-<div class="menu-wrap">
-<img src="logo/logo.png" class ="image">
-<input type="checkbox" id="checkbox">
-<label for="checkbox">
-   <i class="fa fa-bars menu-icon"></i>
-   </label>
+
+<div class="container">
+        <div class="logo">
+            <a href="#"><img src="logo/logo.png" alt="logo"></a>
+        </div>
+    <div class="navbar">
+    
+    <div class="icon-bar" onclick="Show()">
+        <i></i>
+        <i></i>
+        <i></i>
+    </div>
+    
+    <ul id="nav-lists">
+        <li class="close"><span onclick="Hide()">×</span></li>
+        <li><a href="#" onclick="Hide()">Home</a></li>
+        <li><a href="#" onclick="Hide()">Destinations</a></li>
+       
+        <li ><a href="#"></a></li>
+        <li ><a href="#"></a></li>
+       
+        <li><a href="#" onclick="Hide()">About us</a></li>
+
+        <li><a href="#" onclick="Hide()">Contact us</a></li>
+    </ul>
+    
+    </div>
+    </div>
   
-<div class="navigation-bar">
+<script >
+        const navList = document.getElementById('nav-lists');
+function Show() {
+    console.log('toto');
+  navList.classList.add('_Menus-show');
+}
 
-<nav class="navigation-bar-left">
-<ul>
+function Hide() {
+    console.log('titi');
+  navList.classList.remove('_Menus-show');
+}
+</script>
 
-<li><a href="#" >Home</a></li>
-<li><a href="#" >Destination</a></li>
-</ul>
-</nav>
-<nav class="navigation-bar-right">
-<ul>
-<li><a href="#">About us</a></li>
 
-  <li><a href="#">Contact us</a></li>
-  <!-- Début du menu déroulant -->
-  <!--<li><a href="#" >EN</a>
-
-   <ul>
-<li><a href="#">FR</a></li>
-</ul>
-</li>-->
-</ul>
-</nav>
-</div>
-</div>
 
 `;

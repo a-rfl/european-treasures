@@ -1,5 +1,8 @@
 // eslint-disable-next-line import/prefer-default-export
-export const header = `
+import $ from 'jquery';
+
+export const sectionHeader = () => {
+  const header = `
 
 
 <div class="container">
@@ -16,15 +19,15 @@ export const header = `
     
     <ul id="nav-lists">
         <li class="close"><span onclick="Hide()">×</span></li>
-        <li><a href="#" onclick="Hide()">Home</a></li>
+        <li><a href="#" onclick="Hide()">Accueil</a></li>
         <li><a href="#" onclick="Hide()">Destinations</a></li>
        
         <li ><a href="#"></a></li>
         <li ><a href="#"></a></li>
        
-        <li><a href="#" onclick="Hide()">About us</a></li>
+        <li><a href="#" onclick="Hide()">à propos</a></li>
 
-        <li><a href="#" onclick="Hide()">Contact us</a></li>
+        <li><a href="#" onclick="Hide()">Contact</a></li>
     </ul>
     
     </div>
@@ -43,6 +46,7 @@ function Hide() {
 }
 </script>
 
-
-
 `;
+  $('header').empty();
+  $('header').append(header);
+};

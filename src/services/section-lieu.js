@@ -16,6 +16,7 @@ export const sectionLieu = (arr, index) => {
 
   if (arr[index].dimensions.superficie) {
     lieu += `
+<<<<<<< HEAD
           <div>Superficie :
               <p>${arr[index].dimensions.superficie}</p>
           </div>`;
@@ -25,27 +26,56 @@ export const sectionLieu = (arr, index) => {
         <div>Longueur : 
           <p>${arr[index].dimensions.longueur}</p>
         </div>`;
+=======
+        <div>Superficie :
+            <p>${arr[index].dimensions.superficie}</p>
+        </div>`;
+  }
+  if (arr[index].dimensions.longueur) {
+    lieu += `
+      <div>Longueur : 
+        <p>${arr[index].dimensions.longueur}</p>
+      </div>`;
+>>>>>>> fab165ccb3d8d418dcabb666758a1ddc5d79ac10
   }
 
   if (arr[index].dimensions.largeur) {
     lieu += `
+<<<<<<< HEAD
         <div>Largeur : 
           <p>${arr[index].dimensions.largeur}</p>
         </div>`;
+=======
+      <div>Largeur : 
+        <p>${arr[index].dimensions.largeur}</p>
+      </div>`;
+>>>>>>> fab165ccb3d8d418dcabb666758a1ddc5d79ac10
   }
 
   if (arr[index].dimensions.altitude) {
     lieu += `
+<<<<<<< HEAD
         <div>Altitude : 
           <p>${arr[index].dimensions.altitude}</p>
         </div>`;
+=======
+      <div>Altitude : 
+        <p>${arr[index].dimensions.altitude}</p>
+      </div>`;
+>>>>>>> fab165ccb3d8d418dcabb666758a1ddc5d79ac10
   }
 
   if (arr[index].dimensions.profondeur) {
     lieu += `
+<<<<<<< HEAD
         <div>Profondeur : 
           <p>${arr[index].dimensions.profondeur}</p>
         </div>`;
+=======
+      <div>Profondeur : 
+        <p>${arr[index].dimensions.profondeur}</p>
+      </div>`;
+>>>>>>> fab165ccb3d8d418dcabb666758a1ddc5d79ac10
   }
 
   lieu += `</div>
@@ -75,6 +105,7 @@ ${arr[index].description}
 
   if (arr[index].dimensions.superficie) {
     lieu += `
+<<<<<<< HEAD
              <div>Superficie :
                  <p>${arr[index].dimensions.superficie}</p>
              </div>`;
@@ -84,24 +115,48 @@ ${arr[index].description}
            <div>Longueur : 
              <p>${arr[index].dimensions.longueur}</p>
            </div>`;
+=======
+          <div>Superficie :
+              <p>${arr[index].dimensions.superficie}</p>
+          </div>`;
+  }
+  if (arr[index].dimensions.longueur) {
+    lieu += `
+        <div>Longueur : 
+          <p>${arr[index].dimensions.longueur}</p>
+        </div>`;
+>>>>>>> fab165ccb3d8d418dcabb666758a1ddc5d79ac10
   }
 
   if (arr[index].dimensions.largeur) {
     lieu += `
+<<<<<<< HEAD
            <div>Largeur : 
              <p>${arr[index].dimensions.largeur}</p>
            </div>`;
+=======
+        <div>Largeur : 
+          <p>${arr[index].dimensions.largeur}</p>
+        </div>`;
+>>>>>>> fab165ccb3d8d418dcabb666758a1ddc5d79ac10
   }
 
   if (arr[index].dimensions.altitude) {
     lieu += `
+<<<<<<< HEAD
            <div>Altitude : 
              <p>${arr[index].dimensions.altitude}</p>
            </div>`;
+=======
+        <div>Altitude : 
+          <p>${arr[index].dimensions.altitude}</p>
+        </div>`;
+>>>>>>> fab165ccb3d8d418dcabb666758a1ddc5d79ac10
   }
 
   if (arr[index].dimensions.profondeur) {
     lieu += `
+<<<<<<< HEAD
            <div>Profondeur : 
              <p>${arr[index].dimensions.profondeur}</p>
            </div>`;
@@ -109,6 +164,14 @@ ${arr[index].description}
 
   lieu += `</div>
      
+=======
+        <div>Profondeur : 
+          <p>${arr[index].dimensions.profondeur}</p>
+        </div>`;
+  }
+
+  lieu += `</div>
+>>>>>>> fab165ccb3d8d418dcabb666758a1ddc5d79ac10
         </div>
      </div>
 </div>

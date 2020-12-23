@@ -2,7 +2,7 @@
 export const headerDestinations = () => {
   const destinations = `
         <div class="destinations-header">
-            <h2>Destinations</h2>
+            <h2 class="destinations-title" >Destinations</h2>
             <div class="filters">
                 <select name="filter" id="filter">
                     <option value="all" selected>tout</option>

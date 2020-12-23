@@ -70,12 +70,13 @@ h2 {
     width: 100%;
     overflow: scroll;
   }
-  h2 {
+ h2 {
     text-align: center;
     text-transform: capitalize;
-    position: absolute;
-    z-index: 3;
-    padding: 0;
+    position: relative;
+    z-index: 1;
+    margin-top: 2%;
+    padding: 0%;
   }
   .lieu {
     .lieu_img {
@@ -119,7 +120,7 @@ h2 {
     display: none;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1000px) {
   body {
     overflow: hidden;
     width: 100%;

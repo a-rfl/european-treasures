@@ -12,7 +12,43 @@ export const sectionLieu = (arr, index) => {
     ${arr[index].pays}
 
     <h4 class="lieu_text_subtitle">Dimensions</h4>
-    <div id="dimension_Mobile"></div>
+    <div id="dimension_Mobile">`;
+
+  if (arr[index].dimensions.superficie) {
+    lieu += `
+          <div>Superficie :
+              <p>${arr[index].dimensions.superficie}</p>
+          </div>`;
+  }
+  if (arr[index].dimensions.longueur) {
+    lieu += `
+        <div>Longueur : 
+          <p>${arr[index].dimensions.longueur}</p>
+        </div>`;
+  }
+
+  if (arr[index].dimensions.largeur) {
+    lieu += `
+        <div>Largeur : 
+          <p>${arr[index].dimensions.largeur}</p>
+        </div>`;
+  }
+
+  if (arr[index].dimensions.altitude) {
+    lieu += `
+        <div>Altitude : 
+          <p>${arr[index].dimensions.altitude}</p>
+        </div>`;
+  }
+
+  if (arr[index].dimensions.profondeur) {
+    lieu += `
+        <div>Profondeur : 
+          <p>${arr[index].dimensions.profondeur}</p>
+        </div>`;
+  }
+
+  lieu += `</div>
 
     <h4 class="lieu_text_subtitle">Description</h4>
 
@@ -35,7 +71,43 @@ ${arr[index].description}
          <img src="images/${arr[index].images[0]}" alt="${arr[index].nom}" class="img"/> 
          <div class="lieu_text_partie2_text">
      <h4 class="lieu_text_partie2_text_subtitle">Dimensions:</h4>
-     <div id="dimension"></div>
+     <div id="dimension">`;
+
+  if (arr[index].dimensions.superficie) {
+    lieu += `
+             <div>Superficie :
+                 <p>${arr[index].dimensions.superficie}</p>
+             </div>`;
+  }
+  if (arr[index].dimensions.longueur) {
+    lieu += `
+           <div>Longueur : 
+             <p>${arr[index].dimensions.longueur}</p>
+           </div>`;
+  }
+
+  if (arr[index].dimensions.largeur) {
+    lieu += `
+           <div>Largeur : 
+             <p>${arr[index].dimensions.largeur}</p>
+           </div>`;
+  }
+
+  if (arr[index].dimensions.altitude) {
+    lieu += `
+           <div>Altitude : 
+             <p>${arr[index].dimensions.altitude}</p>
+           </div>`;
+  }
+
+  if (arr[index].dimensions.profondeur) {
+    lieu += `
+           <div>Profondeur : 
+             <p>${arr[index].dimensions.profondeur}</p>
+           </div>`;
+  }
+
+  lieu += `</div>
      
         </div>
      </div>

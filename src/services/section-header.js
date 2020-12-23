@@ -13,15 +13,15 @@ export const header = `
 <nav class="navigation-bar-left">
 <ul>
 
-<li><a href="#" >Home</a></li>
-<li><a href="#" >Destination</a></li>
+<li><a href="#" id="home" >Home</a></li>
+<li><a href="#" id="destinations" >Destination</a></li>
 </ul>
 </nav>
 <nav class="navigation-bar-right">
 <ul>
-<li><a href="#">About us</a></li>
+<li><a href="#" id="about">About us</a></li>
 
-  <li><a href="#">Contact us</a></li>
+  <li><a href="#" id="contact">Contact us</a></li>
   <!-- Début du menu déroulant -->
   <!--<li><a href="#" >EN</a>
 

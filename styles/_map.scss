@@ -1,13 +1,5 @@
 
 .map1{
-h2 {
-  position: absolute;
-  top: 12px;
-  left: 50vw;
-  z-index: 1;
-  transform: translateX(-50%);
-  
-}
 section {
   position: absolute;
   bottom: 1vh;
@@ -41,9 +33,6 @@ section {
     z-index: 0;
    
   }
-  // h2{
-  //   position: fixed;
-  // }
   section {
     position: absolute;
     top: 100vh;

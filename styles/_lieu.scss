@@ -11,16 +11,16 @@ h2 {
 .lieu {
   .lieu_img {
     width: 100%;
-    position: absolute;
     top: 0;
     z-index: -1;
-    height: 100%;
+    height: 100vh;
     margin-left: -50%;
-    img {
+    position: fixed;
+    .img {
       width: 100%;
       object-fit: cover;
-      height: 100%;
-      position: fixed;
+      height: 100vh;
+      position: absolute;
     }
   }
   .lieu_text_mobile {
@@ -73,20 +73,21 @@ h2 {
   h2 {
     text-align: center;
     text-transform: capitalize;
-    position: relative;
+    position: absolute;
     z-index: 3;
     padding: 0;
   }
   .lieu {
     .lieu_img {
-      position: absolute;
+      position: static;
       height: 100vh;
       margin-top: -7%;
+      position: relative;
 
       img {
         height: 100vh;
         object-fit: cover;
-        position: absolute;
+        position: relative;
       }
     }
     .lieu_text {
@@ -134,14 +135,12 @@ h2 {
   }
   .lieu {
     .lieu_img {
-      position: absolute;
       height: 100vh;
       margin-top: -7%;
 
       img {
         height: 100vh;
         object-fit: cover;
-        position: absolute;
       }
     }
     .lieu_text {
@@ -151,20 +150,25 @@ h2 {
       width: 85%;
       background-color: transparent;
       font-size: 18px;
-      padding-top: 23%;
+      margin-top: 5%;
+      padding: 20px;
 
       .lieu_text_partie2 {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 50px;
-        .img {
-          width: 250px;
-          height: 250px;
-          margin-left: 10%;
+        .lieu_text_partie2_img{
+          .img {
+            width: 250px;
+            height: 250px;
+            padding: 10px;
+          }
         }
-        .lieu_text_partie2_text {
-          margin-right: 50%;
+        .lieu_text_partie2_text{
+          margin-left: 120%;
+          margin-top: -70%;
+          width: 50vh;
         }
       }
     }

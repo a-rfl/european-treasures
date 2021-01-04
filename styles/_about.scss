@@ -1,9 +1,13 @@
 body {
   margin: 0;
 }
+// Version mobile
 h2 {
   text-align: center;
   text-transform: capitalize;
+  height: 80px;
+  line-height: 80px;
+  margin-top: 70px;
 }
 .about {
   .about_img {
@@ -13,12 +17,12 @@ h2 {
     }
   }
   .about_text {
-    width: 85%;
+    width: 95%;
     margin: auto;
     text-align: justify;
     font-size: 16px;
     line-height: 30px;
-    padding: 20px;
+    margin-top: 15px;
     .about_text_subtitle {
       text-align: right;
     }
@@ -34,10 +38,14 @@ h2 {
     }
   }
 }
+// Versions tablettes et web
 @media only screen and (min-width: 768px) {
-    body {
-        overflow: hidden;
-    }
+  body {
+    overflow: hidden;
+  }
+  h2 {
+    margin-top: 0;
+  }
   .about {
     .about_img {
       position: absolute;
@@ -45,19 +53,38 @@ h2 {
       z-index: -1;
       height: 100vh;
       img {
-          height: 100vh;
+        height: 100vh;
         object-fit: cover;
       }
     }
     .about_text {
       position: absolute;
       bottom: 0;
-      right: 75px;
-      width: 45%;
-      padding-bottom: 150px;
-      background-color: rgba(234, 231, 220, 0.8);
-      font-size: 18px;
+      right: 35px;
+      width: 75%;
+      margin-top: 0;
+      padding: 15px 15px 5vh 5px;
+      background-color: rgba(234, 231, 220, 0.85);
       line-height: 25px;
+    }
+  }
+}
+@media only screen and (min-width: 992px) {
+  .about {
+    .about_text {
+      right: 55px;
+      width: 55%;
+      padding: 15px 15px 3vh 5px;
+      line-height: 23px;
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .about {
+    .about_text {
+      width: 48%;
+      padding: 20px 20px 5vh 20px;
+      line-height: 27px;
     }
   }
 }

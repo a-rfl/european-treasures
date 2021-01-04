@@ -1,10 +1,23 @@
-body {
+   *:focus {
+    outline: none;
+}
+ body {
   margin: 0;
   //overflow: scroll;
 }
 
-
-.lieu {
+.lieu{
+ 
+    .lieu_img{
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        top: 0;
+        position:relative;
+      
+      }
   h2 {
     text-align: center;
     text-transform: capitalize;
@@ -13,20 +26,34 @@ body {
     left: 50%;
     transform: translateX(-50%);
   }
-  .lieu_img {
-    width: 100%;
-    top: 0;
-    z-index: -1;
-    height: 100vh;
-    margin-left: -50%;
-    position: fixed;
-    .img {
-      width: 100%;
-      object-fit: cover;
-      height: 100vh;
-      position: absolute;
-    }
-  }
+
+.slider-container {
+  max-width: 100vw;
+  color: white;
+  position: relative;
+}
+.slider-item {
+  height: 100vh;
+  background-size: cover;
+}
+.controls {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 254, 254, 0.5);      
+}
+
+.controls li:hover {
+  cursor: pointer;
+}
+
   .lieu_text_mobile {
     width: 100%;
     text-align: justify;
@@ -35,22 +62,25 @@ body {
     padding: 10px;
     background-color: rgba(224, 223, 217, 0.6);
     margin: auto;
+    
     //overflow: auto;
-    margin-top: 100%;
+    //margin-top: 100vh;
     .lieu_text_subtitle {
       text-align: center;
     }
     .galerie {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       align-items: center;
       flex-wrap: wrap;
       margin-top: 20px;
       .image {
         height: 150px;
         width: 150px;
+        padding: 5px;
       }
     }
+    
     .button {
       width: 240px;
       height: 60px;
@@ -75,18 +105,7 @@ body {
     //overflow: scroll;
   }
   .lieu {
-    .lieu_img {
-      position: static;
-      height: 100vh;
-      margin-top: -7%;
-      position: relative;
-
-      img {
-        height: 100vh;
-        object-fit: cover;
-        position: relative;
-      }
-    }
+ 
     .lieu_text {
       display: block;
       text-align: justify;
@@ -123,15 +142,7 @@ body {
     // overflow: scroll;
   }
   .lieu {
-    .lieu_img {
-      height: 100vh;
-      margin-top: -7%;
-
-      img {
-        height: 100vh;
-        object-fit: cover;
-      }
-    }
+   
     .lieu_text {
       display: block;
       text-align: justify;

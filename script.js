@@ -9,7 +9,25 @@ import { sectionAbout } from './src/services/section-about';
 import { sectionContact } from './src/services/section-contact';
 import { sectionMap } from './src/services/section-map';
 import { newMap } from './src/helpers/map';
+import { tns } from './node_modules/tiny-slider/src/tiny-slider';
 
+const carousel = function () {
+  const slider = tns({
+    container: '.my-slider',
+    // autoHeight: true,
+    loop: true,
+    // swipeAngle: false,
+    items: 1,
+    slideBy: 'page',
+    nav: false,
+    // autoplay: true,
+    speed: 400,
+    autoplayButtonOutput: false,
+    mouseDrag: true,
+    lazyload: true,
+    controlsContainer: '#customize-controls',
+  });
+};
 const randomPlace = (arr) => {
 // Retourne un index aléatoirement et le stocke dans la variable indexPlace
   const indexPlace = randomIndex(arr);
@@ -33,6 +51,7 @@ $.get('http://localhost:3000/lieux').then((data) => {
   // Fonction d'event au click sur le bouton de la homepage
   $('body').on('click', '.home_btn', () => {
     randomPlace(lieux);
+    carousel();
   });
 
   /* ABOUT */
@@ -54,6 +73,7 @@ $.get('http://localhost:3000/lieux').then((data) => {
       // Display a random place when clicked
       $('.random').on('click', () => {
         randomPlace(arr);
+        carousel();
       });
 
       // Button displaying map
@@ -85,6 +105,7 @@ $.get('http://localhost:3000/lieux').then((data) => {
   $('body').on('click', '.destination', (e) => {
     const { id } = e.currentTarget;
     $('main').html(sectionLieu(lieux, id));
+    carousel();
   });
 
   render(lieux);

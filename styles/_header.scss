@@ -21,169 +21,242 @@ body {
   margin: 0;
   padding: 0;
   background-color: $background;
+  overflow: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 header {
   position: fixed;
   height: 80px;
-  background-color: #22292f;
+  background-color: rgb(29, 26, 26, 0.75);
   padding: 10px 0;
   width: 100%;
-}
-.menu-wrap {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 15px;
-}
-.image {
-  height: 80px;
-  margin-bottom: 35px;
-  margin-top: -10px;
-}
-.menu-icon {
-  font-size: 1.8em;
-  color: #ffffff;
-  line-height: 50px;
-}
-.navigation-bar {
-  position: absolute;
-  top: 250%;
+  border-radius: 0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  right: 0;
   left: 0;
+
+  .container .navbar ._Menus-show {
+    left: 0;
+  }
+}
+
+.container {
+  height: 60px;
   width: 100%;
-
-  ul {
-    list-style-type: none;
-
-    li {
-      padding: 0 10px;
-      width: 280px;
-      height: 80px;
-      background-color: #e85a4f;
-      border: none;
-      border-radius: 19px;
-      font-size: 28px;
-      font-weight: 600;
-      color: rgb(255, 255, 255);
-      margin: 20px;
-      margin-left: 15%;
-      text-align: center;
-      background-image: url("static/img-pages/btn1.jpg");
-
-      //backdrop-filter: grayscale(1) contrast(3) blur(1px);
-
-      a {
-        display: inline-block;
-        color: #dae1e7;
-        text-decoration: none;
-        font-size: 28px;
-        opacity: 1;
-      }
-
-      a:hover,
-      a:focus {
-        color: #d8c3a5;
-      }
-    }
-  }
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
-//we need to toggle the menu display by using a hidden checkbox element
-#checkbox {
+
+.container .logo {
+  width: 10%;
+}
+
+.container .logo a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 60px;
+}
+
+.container .logo a img {
+  max-width: 100%;
+  max-height: 60px;
+}
+
+.container .navbar {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  width: 100%;
+  position: relative;
+}
+
+.container .navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container .navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 17px;
+  text-transform: uppercase;
+  display: block;
+  width: 160px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.container .navbar ul li a:hover {
+  color: #ffffff;
+  background-color: rgba(23, 23, 23, 0.9);
+  width: 160px;
+  cursor: pointer;
+}
+
+.container .navbar ul .close {
   display: none;
-}
-#checkbox:checked ~ .navigation-bar ul {
-  padding: 15px 0;
-  transition: all 0.5s;
-  display: none;
+  text-align: right;
+  padding: 10px;
+  margin-top: 1%
 }
 
-@media (min-width: 768px) {
-  .navigation-bar {
-    position: relative;
-    top: -10px;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.container .navbar ul .close span {
+  font-size: 40px;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  padding: 0 10px;
+  cursor: pointer;
+}
+
+.container .navbar .icon-bar {
+  padding: 10px 8px;
+  width: 50px;
+  height: 50px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+.container .navbar .icon-bar i {
+  background-color: #ffffff;
+  height: 3px;
+}
+@media only screen and (max-width: 992px) {
+  .container {
+    height: 60px;
     width: 100%;
-    .navigation-bar-left {
-      width: 30%;
-      margin-right: 60%;
-      ul {
-        padding: 15px 0;
-        text-align: right;
-        display: flex;
-        justify-content: space-around;
-        li {
-          display: inline-flex;
-          width: 120px;
-          height: 60px;
-          background-color: transparent;
-          border: none;
-          color: white;
-          margin-bottom: 30%;
-          margin-left: 10px;
-          background-image: none;
-          a {
-            display: inline-block;
-            color: #dae1e7;
-            text-decoration: none;
-            font-size: 18px;
-          }
-        }
-      }
-      .image {
-        width: 60px;
-        height: 60px;
-        margin-bottom: 2%;
-      }
-    }
-
-    .navigation-bar-right {
-      margin-left: -20%;
-      width: 30%;
-      ul {
-        padding: 15px 0;
-        text-align: right;
-        display: flex;
-        justify-content: space-around;
-
-        li {
-          display: inline-flex;
-          width: 120px;
-          height: 60px;
-          background-color: transparent;
-          border: none;
-          color: white;
-          margin-bottom: 30%;
-          margin-right: 0%;
-          background-image: none;
-          a {
-            display: inline-block;
-            color: #dae1e7;
-            text-decoration: none;
-            font-size: 18px;
-          }
-        }
-        //Rend le menu déroulant caché par défaut
-        li ul {
-          display: none;
-        }
-        //Affiche la dropli au survol de la souris
-        li:hover ul {
-          z-index: 99999;
-          display: list-item;
-          position: absolute;
-          margin-top: 5px;
-          margin-left: -35px;
-        }
-      }
-    }
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
   }
-  .menu-icon {
-    display: none;
+
+  .container .logo {
+    width: 10%;
   }
-  #checkbox:checked ~ .navigation-bar ul {
-    transition: all 0.5s;
+
+  .container .logo a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 60px;
+  }
+
+  .container .logo a img {
+    max-width: 100%;
+    max-height: 60px;
+  }
+
+  .container .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100%;
+  }
+
+  .container .navbar ul {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin-top: -12%;
+    margin-left: 50px;
+  }
+
+  .container .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 15px;
+    text-transform: uppercase;
     display: block;
+    width: 120px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .container .navbar ul li a:hover {
+    color: #ffffff;
+    background-color: rgba(23, 23, 23, 0.9);
+    width: 100px;
+    cursor: pointer;
+  }
+  .container .navbar ul .close {
+    display: none;
+    text-align: right;
+    padding: 0px 52px;
+    margin-bottom: -37%;
+  }
+  
+}
+
+@media only screen and (max-width: 650px) {
+  .container {
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .container .logo {
+    flex: 1;
+  }
+
+  .container .navbar {
+    flex: 0;
+  }
+
+  .container .navbar ul {
+    flex-wrap: nowrap;
+    position: fixed;
+    left: 100%;
+    flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    transition: left 0.3s;
+    display: flex;
+  }
+
+  .container .navbar ul li a {
+    padding: 7px;
+    font-size: 16px;
+    line-height: normal;
+    color: #555555;
+  }
+
+  .container .navbar ul .close {
+    display: block;
+    padding: 0px 52px;
+    margin-top: 103%;
+    
+  }
+
+  .container .navbar .icon-bar {
+    display: flex;
+    margin-bottom: 30%;
+    
+  }
+
+  .container .navbar ._Menus-show {
+    left: 10;
   }
 }

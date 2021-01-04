@@ -57,10 +57,6 @@ header {
   align-items: center;
 }
 
-.container .logo {
-  width: 10%;
-}
-
 .container .logo a {
   display: flex;
   flex-wrap: wrap;
@@ -75,18 +71,20 @@ header {
 
 .container .navbar {
   display: flex;
-  flex-wrap: wrap;
   flex: 1;
-  width: 100%;
   position: relative;
 }
 
 .container .navbar ul {
   display: flex;
-  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
+  justify-content: space-between;
+  width: 100%;
+}
+.container .navbar ul li.flex-grow {
+  flex-grow: 1;
 }
 
 .container .navbar ul li a {
@@ -114,7 +112,7 @@ header {
   display: none;
   text-align: right;
   padding: 10px;
-  margin-top: 1%
+  margin-top: 1%;
 }
 
 .container .navbar ul .close span {
@@ -140,7 +138,8 @@ header {
   background-color: #ffffff;
   height: 3px;
 }
-@media only screen and (max-width: 992px) {
+
+@media only screen and (max-width: 768px) {
   .container {
     height: 60px;
     width: 100%;
@@ -206,10 +205,6 @@ header {
     padding: 0px 52px;
     margin-bottom: -37%;
   }
-  
-}
-
-@media only screen and (max-width: 650px) {
   .container {
     justify-content: space-between;
     height: 100%;
@@ -247,13 +242,11 @@ header {
     display: block;
     padding: 0px 52px;
     margin-top: 103%;
-    
   }
 
   .container .navbar .icon-bar {
     display: flex;
     margin-bottom: 30%;
-    
   }
 
   .container .navbar ._Menus-show {

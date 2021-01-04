@@ -16,15 +16,15 @@ export const header = `
     
     <ul id="nav-lists">
         <li class="close"><span onclick="Hide()">×</span></li>
-        <li><a href="#" onclick="Hide()">Accueil</a></li>
-        <li><a href="#" onclick="Hide()">Destinations</a></li>
+        <li><a href="#" onclick="Hide()" id="home">Accueil</a></li>
+        <li><a href="#" onclick="Hide()" id="destinations">Destinations</a></li>
        
         <li ><a href="#"></a></li>
         <li ><a href="#"></a></li>
        
-        <li><a href="#" onclick="Hide()">à propos</a></li>
+        <li><a href="#" onclick="Hide()" id="about">à propos</a></li>
 
-        <li><a href="#" onclick="Hide()">Contact </a></li>
+        <li><a href="#" onclick="Hide()" id="contact">Contact </a></li>
     </ul>
     
     </div>

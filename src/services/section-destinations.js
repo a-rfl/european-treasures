@@ -1,9 +1,8 @@
 // (Array) => String
-export const sectionDestinations = (arr) => {
-  let destinations = `
-        <div>
+export const headerDestinations = () => {
+  const destinations = `
         <div class="destinations-header">
-            <h2>Destinations</h2>
+            <h2 class="destinations-title" >Destinations</h2>
             <div class="filters">
                 <select name="filter" id="filter">
                     <option value="all" selected>tout</option>
@@ -21,19 +20,22 @@ export const sectionDestinations = (arr) => {
                     <label for="map">Carte</label>
                 </div>
             </div>
-        </div>
-        <section class="destinations">
-    `;
+        </div>`;
+
+  return destinations;
+};
+
+export const contentDestinations = (arr) => {
+  let destinations = '<section class="destinations">';
   // Loop on the array, to get the first image, the index and the name of each ellement
   // in the array passed in argument
   arr.forEach((place, index) => {
     destinations += `
-            <div class="destination" style="background-image: url(images/${place.images[0]});" id="${index}">
+            <div class="destination" style="background-image: url(images/${place.images[0]});" id="${place.id - 1}">
                 <h3>${place.nom}</h3>
             </div>
         `;
   });
-  destinations += '</section></div>';
-
+  destinations += '</section>';
   return destinations;
 };

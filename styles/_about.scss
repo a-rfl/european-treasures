@@ -1,12 +1,5 @@
-body {
-  margin: 0;
-}
 // Version mobile
 h2 {
-  text-align: center;
-  text-transform: capitalize;
-  height: 80px;
-  line-height: 80px;
   margin-top: 70px;
 }
 .about {
@@ -40,9 +33,6 @@ h2 {
 }
 // Versions tablettes et web
 @media only screen and (min-width: 768px) {
-  body {
-    overflow: hidden;
-  }
   h2 {
     margin-top: 0;
   }

@@ -33,6 +33,9 @@ body {
   font-family: $main-font;
   text-align: center;
 }
+main {
+  overflow: auto;
+}
 h1 {
   font-family: $headline-font;
   color: white;
@@ -43,6 +46,14 @@ h2 {
   font-family: $headline-font;
   color: $light-red;
   font-size: $h2-font-size;
+  position: absolute;
+  text-align: center;
+  text-transform: capitalize;
+  left: 50%;
+  transform: translatex(-50%);
+  z-index: 1;
+  line-height: 80px;
+  height: 80px;
 }
 h4 {
   color: $light-red;

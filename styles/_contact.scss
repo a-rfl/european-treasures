@@ -6,14 +6,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-
-  h2 {
-    position: absolute;
-    top: 12px;
-    left: 50%;
-    transform: translatex(-50%);
-    z-index: 1;
-  }
   form {
     display: flex;
     flex-direction: column;

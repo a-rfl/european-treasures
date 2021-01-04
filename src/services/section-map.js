@@ -4,7 +4,6 @@ export const sectionMap = () => {
   const map = `
     <div class="map1">
         <div id="osm-map"></div>
-        <h2>Carte</h2>
         <section class="legend">
             <h5>Legend</h5>
             <div id="volcano"> <img style = "width:30px"src="img-pages/volcano_icon.png"/>  Volcans</div>
@@ -16,6 +15,5 @@ export const sectionMap = () => {
         
     </div>
   `;
-  $('main').empty();
-  $('main').append(map);
+  $('.destinations').html(map);
 };

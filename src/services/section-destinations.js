@@ -31,7 +31,7 @@ export const contentDestinations = (arr) => {
   // in the array passed in argument
   arr.forEach((place, index) => {
     destinations += `
-            <div class="destination" style="background-image: url(images/${place.images[0]});" id="${index}">
+            <div class="destination" style="background-image: url(images/${place.images[0]});" id="${place.id - 1}">
                 <h3>${place.nom}</h3>
             </div>
         `;

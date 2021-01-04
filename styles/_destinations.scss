@@ -25,12 +25,19 @@
   // Select
   select {
     margin: 0 30px;
-    width: 8%;
-    border: none;
+    width: 8.5%;
+    border: 1px solid white;
+    border-width: 0 .5px;
+    border-radius: 5px;
+    // -webkit-appearance: none;
     color: white;
     background-color: transparent;
     text-align: center;
     text-transform: capitalize;
+    option {
+      background-color: #eae7dc;
+      color: #1d1a1a;
+    }
   }
   // Random button
   .btn-filter {

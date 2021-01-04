@@ -1,12 +1,8 @@
  body {
   margin: 0;
-   overflow: scroll;
+  //overflow: scroll;
 }
-h2 {
-  text-align: center;
-  text-transform: capitalize;
-  padding: 30%;
- }
+
 
 .lieu {
  
@@ -14,14 +10,34 @@ h2 {
     outline: none;
 }
 .lieu{
-    .lieu_img{
-        height: 100vh;
-        width: 100vw;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        top: 0;
-        position:absolute;
+    // .lieu_img{
+    //     height: 100vh;
+    //     width: 100vw;
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
+    //     background-position: center;
+    //     top: 0;
+    //     position:absolute;
+  h2 {
+    text-align: center;
+    text-transform: capitalize;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .lieu_img {
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    margin-left: -50%;
+    position: fixed;
+    .img {
+      width: 100%;
+      object-fit: cover;
+      height: 100vh;
+      position: absolute;
     }
    
 }
@@ -60,7 +76,7 @@ h2 {
     padding: 10px;
     background-color: rgba(224, 223, 217, 0.6);
     margin: auto;
-    overflow: auto;
+    //overflow: auto;
     margin-top: 100%;
     .lieu_text_subtitle {
       text-align: center;
@@ -97,21 +113,7 @@ h2 {
   body {
     //overflow: hidden;
     width: 100%;
-    overflow: scroll;
-  }
- h2 {
-    text-align: center;
-    text-transform: capitalize;
-    position: fixed;
-    top: 0;
-    left: 50%;
-      transform: translateX(-50%);
-
-
-    //z-index: 1;
-    //margin-top: 2%;
-    //padding: 0%;
-
+    //overflow: scroll;
   }
   .lieu {
     .lieu_img {
@@ -195,14 +197,14 @@ h2 {
         justify-content: space-between;
         align-items: center;
         padding: 50px;
-        .lieu_text_partie2_img{
+        .lieu_text_partie2_img {
           .img {
             width: 250px;
             height: 250px;
             padding: 10px;
           }
         }
-        .lieu_text_partie2_text{
+        .lieu_text_partie2_text {
           margin-left: 120%;
           margin-top: -70%;
           width: 50vh;

@@ -13,12 +13,9 @@ export const headerDestinations = () => {
                     <option value="volcan">volcans</option>
                 </select>
 
-                <button class="random">Lieu aléatoire</button>
+                <button class="random btn-filter">Lieu aléatoire</button>
 
-                <div class="block-map">
-                    <input type="checkbox" id="map" name="map" value="true"/>
-                    <label for="map">Carte</label>
-                </div>
+                <button class="map btn-filter">Carte</button>
             </div>
         </div>`;
 

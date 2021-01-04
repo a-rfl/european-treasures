@@ -56,16 +56,11 @@ $.get('http://localhost:3000/lieux').then((data) => {
         randomPlace(arr);
       });
 
-      // Checkbox action
-      // Display map section when checked
-      // Display cards section when unchecked
-      $('.block-map').on('click', (e) => {
-        if ($(e.target).prop('checked')) {
-          sectionMap();
-          newMap();
-        } else {
-          $('.destinations').html(contentDestinations(lieux));
-        }
+      // Button displaying map
+      // Display map section when clicked
+      $('.map').on('click', () => {
+        sectionMap();
+        newMap();
       });
 
       // Select filter

@@ -29,7 +29,7 @@
     text-transform: capitalize;
   }
   // Random button
-  .random {
+  .btn-filter {
     margin: 0 30px;
     color: white;
     background-color: transparent;
@@ -42,13 +42,6 @@
     &:hover {
       background-color: $light-red;
       border-color: transparent;
-    }
-  }
-  // Checkbox map
-  .block-map {
-    margin: 0 30px;
-    label {
-      color: white;
     }
   }
 }
@@ -77,7 +70,7 @@ section.destinations {
     }
   }
 }
-// Mediaqueries 
+// Mediaqueries
 @media only screen and (max-width: 1200px) {
   .filters {
     select {

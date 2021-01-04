@@ -1,28 +1,57 @@
-body {
+ body {
   margin: 0;
-  overflow: scroll;
+   overflow: scroll;
 }
 h2 {
   text-align: center;
   text-transform: capitalize;
   padding: 30%;
-}
+ }
 
 .lieu {
-  .lieu_img {
-    width: 100%;
-    top: 0;
-    z-index: -1;
-    height: 100vh;
-    margin-left: -50%;
-    position: fixed;
-    .img {
-      width: 100%;
-      object-fit: cover;
-      height: 100vh;
-      position: absolute;
+ 
+  *:focus {
+    outline: none;
+}
+.lieu{
+    .lieu_img{
+        height: 100vh;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        top: 0;
+        position:absolute;
     }
-  }
+   
+}
+.slider-container {
+  max-width: 100vw;
+  color: white;
+  position: relative;
+}
+.slider-item {
+  height: 100vh;
+  background-size: cover;
+}
+.controls {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 254, 254, 0.5);      
+}
+
+.controls li:hover {
+  cursor: pointer;
+}
+
   .lieu_text_mobile {
     width: 100%;
     text-align: justify;
@@ -66,17 +95,23 @@ h2 {
 }
 @media only screen and (min-width: 992px) {
   body {
-    overflow: hidden;
+    //overflow: hidden;
     width: 100%;
     overflow: scroll;
   }
  h2 {
     text-align: center;
     text-transform: capitalize;
-    position: relative;
-    z-index: 1;
-    margin-top: 2%;
-    padding: 0%;
+    position: fixed;
+    top: 0;
+    left: 50%;
+      transform: translateX(-50%);
+
+
+    //z-index: 1;
+    //margin-top: 2%;
+    //padding: 0%;
+
   }
   .lieu {
     .lieu_img {
@@ -91,6 +126,7 @@ h2 {
         position: relative;
       }
     }
+    
     .lieu_text {
       display: block;
       text-align: justify;

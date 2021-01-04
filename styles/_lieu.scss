@@ -70,7 +70,7 @@ body {
 }
 @media only screen and (min-width: 992px) {
   body {
-    overflow: hidden;
+    // overflow: hidden;
     width: 100%;
     //overflow: scroll;
   }
@@ -118,17 +118,9 @@ body {
 }
 @media only screen and (min-width: 1000px) {
   body {
-    overflow: hidden;
+    // overflow: hidden;
     width: 100%;
-    overflow: scroll;
-  }
-  h2 {
-    text-align: center;
-    text-transform: capitalize;
-    position: relative;
-    z-index: 1;
-    margin-top: 2%;
-    padding: 0%;
+    // overflow: scroll;
   }
   .lieu {
     .lieu_img {

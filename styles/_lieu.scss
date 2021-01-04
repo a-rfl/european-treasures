@@ -2,13 +2,16 @@ body {
   margin: 0;
   overflow: scroll;
 }
-h2 {
-  text-align: center;
-  text-transform: capitalize;
-  padding: 30%;
-}
 
 .lieu {
+  h2 {
+    text-align: center;
+    text-transform: capitalize;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   .lieu_img {
     width: 100%;
     top: 0;
@@ -70,14 +73,6 @@ h2 {
     width: 100%;
     overflow: scroll;
   }
- h2 {
-    text-align: center;
-    text-transform: capitalize;
-    position: relative;
-    z-index: 1;
-    margin-top: 2%;
-    padding: 0%;
-  }
   .lieu {
     .lieu_img {
       position: static;
@@ -126,14 +121,6 @@ h2 {
     width: 100%;
     overflow: scroll;
   }
-  h2 {
-    text-align: center;
-    text-transform: capitalize;
-    position: relative;
-    z-index: 1;
-    margin-top: 2%;
-    padding: 0%;
-  }
   .lieu {
     .lieu_img {
       height: 100vh;
@@ -159,14 +146,14 @@ h2 {
         justify-content: space-between;
         align-items: center;
         padding: 50px;
-        .lieu_text_partie2_img{
+        .lieu_text_partie2_img {
           .img {
             width: 250px;
             height: 250px;
             padding: 10px;
           }
         }
-        .lieu_text_partie2_text{
+        .lieu_text_partie2_text {
           margin-left: 120%;
           margin-top: -70%;
           width: 50vh;

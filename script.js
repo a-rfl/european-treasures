@@ -2,7 +2,7 @@ import './style.scss';
 import $ from 'jquery';
 import { header } from './src/services/section-header';
 import { randomIndex } from './src/helpers/random';
-// import { sectionPlace } from './src/services/section-place';
+import { sectionLieu } from './src/services/section-lieu';
 import { homepage } from './src/services/homepage';
 import { headerDestinations, contentDestinations } from './src/services/section-destinations';
 import { sectionAbout } from './src/services/section-about';
@@ -13,10 +13,9 @@ import { newMap } from './src/helpers/map';
 const randomPlace = (arr) => {
 // Retourne un index aléatoirement et le stocke dans la variable indexPlace
   const indexPlace = randomIndex(arr);
-  console.log(arr[indexPlace]);
   // Remplace le contenu de la balise main par une section de lieu
   // Le lieu est récupéré dans la liste grâce à l'index stockée dans indexPlace
-  // $('main').html(sectionPlace(arr, indexPlace));
+  $('main').html(sectionLieu(arr, indexPlace));
 };
 
 $.get('http://localhost:3000/lieux').then((data) => {
@@ -90,9 +89,7 @@ $.get('http://localhost:3000/lieux').then((data) => {
   // Display the place that was clicked on
   $('body').on('click', '.destination', (e) => {
     const { id } = e.currentTarget;
-    console.log(e.currentTarget);
-    console.log(lieux[id]);
-    // $('main').html(sectionPlace(lieux, id));
+    $('main').html(sectionLieu(lieux, id));
   });
 
   render(lieux);

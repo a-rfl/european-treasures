@@ -1,14 +1,18 @@
 body {
   margin: 0;
-  overflow: scroll;
-}
-h2 {
-  text-align: center;
-  text-transform: capitalize;
-  padding: 30%;
+  //overflow: scroll;
 }
 
+
 .lieu {
+  h2 {
+    text-align: center;
+    text-transform: capitalize;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   .lieu_img {
     width: 100%;
     top: 0;
@@ -31,7 +35,7 @@ h2 {
     padding: 10px;
     background-color: rgba(224, 223, 217, 0.6);
     margin: auto;
-    overflow: auto;
+    //overflow: auto;
     margin-top: 100%;
     .lieu_text_subtitle {
       text-align: center;
@@ -68,15 +72,7 @@ h2 {
   body {
     overflow: hidden;
     width: 100%;
-    overflow: scroll;
-  }
- h2 {
-    text-align: center;
-    text-transform: capitalize;
-    position: relative;
-    z-index: 1;
-    margin-top: 2%;
-    padding: 0%;
+    //overflow: scroll;
   }
   .lieu {
     .lieu_img {
@@ -159,14 +155,14 @@ h2 {
         justify-content: space-between;
         align-items: center;
         padding: 50px;
-        .lieu_text_partie2_img{
+        .lieu_text_partie2_img {
           .img {
             width: 250px;
             height: 250px;
             padding: 10px;
           }
         }
-        .lieu_text_partie2_text{
+        .lieu_text_partie2_text {
           margin-left: 120%;
           margin-top: -70%;
           width: 50vh;

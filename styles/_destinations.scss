@@ -2,13 +2,17 @@
   box-sizing: border-box;
 }
 // Container of the h2 and filters menu
-.destinations-header {
-  z-index: 2;
+.destinations-title {
   position: sticky;
   top: 0;
-  .destinations-title {
-    margin-top: 0;
-  }
+  transform: translateX(-50%);
+  width: 50%;
+  margin-top: 0;
+}
+.destinations-header {
+  position: sticky;
+  top: 80px;
+  z-index: 1;
 }
 // Filters menu
 .filters {

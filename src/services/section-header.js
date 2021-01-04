@@ -18,12 +18,8 @@ export const header = `
         <li class="close"><span onclick="Hide()">×</span></li>
         <li><a href="#" onclick="Hide()" id="home">Accueil</a></li>
         <li><a href="#" onclick="Hide()" id="destinations">Destinations</a></li>
-       
-        <li ><a href="#"></a></li>
-        <li ><a href="#"></a></li>
-       
+        <li class="flex-grow"></li>
         <li><a href="#" onclick="Hide()" id="about">à propos</a></li>
-
         <li><a href="#" onclick="Hide()" id="contact">Contact </a></li>
     </ul>
     

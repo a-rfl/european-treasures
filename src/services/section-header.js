@@ -4,7 +4,7 @@ export const header = `
 
 <div class="container">
         <div class="logo">
-            <a href="#"><img src="logo/logo.png" alt="logo"></a>
+            <a href="#"><img src="logo/logo-small-white.png" alt="logo"></a>
         </div>
     <div class="navbar">
     
@@ -13,14 +13,15 @@ export const header = `
         <i></i>
         <i></i>
     </div>
-    
+   
     <ul id="nav-lists">
+        <li class="logo-menu-mob"></li>
         <li class="close"><span onclick="Hide()">×</span></li>
-        <li><a href="#" onclick="Hide()" id="home">Accueil</a></li>
-        <li><a href="#" onclick="Hide()" id="destinations">Destinations</a></li>
+        <li ><div class="overlay home-mob"><a href="#" onclick="Hide()" id="home">Accueil</a></div></li>
+        <li><div class="overlay destinations-mob"><a  href="#" onclick="Hide()" id="destinations">Destinations</a></div></li>
         <li class="flex-grow"></li>
-        <li><a href="#" onclick="Hide()" id="about">à propos</a></li>
-        <li><a href="#" onclick="Hide()" id="contact">Contact </a></li>
+        <li ><div class="overlay about-mob"><a  href="#" onclick="Hide()" id="about">à propos</a></div></li>
+        <li ><div class="overlay contact-mob"><a  href="#" onclick="Hide()" id="contact">Contact </a></div></li>
     </ul>
     
     </div>
@@ -29,16 +30,16 @@ export const header = `
 <script >
         const navList = document.getElementById('nav-lists');
 function Show() {
-    console.log('toto');
+   
   navList.classList.add('_Menus-show');
+      const h2 = document.querySelector('h2');
+  h2.style.opacity = 0;
+  const menuFilter = document.querySelector('.destinations-header');
+  menuFilter.style.opacity = 0;
 }
-
-function Hide() {
-    console.log('titi');
+function Hide() {  
   navList.classList.remove('_Menus-show');
 }
 </script>
-
-
 
 `;

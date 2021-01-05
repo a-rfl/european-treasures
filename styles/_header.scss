@@ -1,34 +1,3 @@
-@font-face {
-  font-family: "Andalan Eug";
-  src: url("fonts/Andalan-Eug.woff2") format("woff2"),
-    url("fonts/Andalan-Eug.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-$background: #eae7dc;
-$dark-transparent: rgb(29, 26, 26, 0.75);
-$headline-font: "Andalan Eug";
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Open Sans";
-  font-size: 18px;
-}
-body {
-  margin: 0;
-  padding: 0;
-  background-color: $background;
-  overflow: hidden;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 header {
   position: fixed;
@@ -36,11 +5,6 @@ header {
   background-color: rgb(29, 26, 26, 0.75);
   padding: 10px 0;
   width: 100%;
-  border-radius: 0;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
   right: 0;
   left: 0;
 
@@ -48,7 +12,6 @@ header {
     left: 0;
   }
 }
-
 .container {
   height: 60px;
   width: 100%;
@@ -62,6 +25,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   height: 60px;
+  padding-left: 20px;
 }
 
 .container .logo a img {
@@ -102,8 +66,9 @@ header {
 }
 
 .container .navbar ul li a:hover {
-  color: #ffffff;
-  background-color: rgba(23, 23, 23, 0.9);
+  
+  background-color: transparent;
+  color: $light-red;
   width: 160px;
   cursor: pointer;
 }
@@ -139,6 +104,9 @@ header {
   height: 3px;
 }
 @media only screen and (max-width: 768px) {
+  .flex-grow{
+    display: none;
+  }
   .container {
     height: 60px;
     width: 100%;
@@ -156,6 +124,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     height: 60px;
+    padding-bottom: 80px;
   }
 
   .container .logo a img {
@@ -163,47 +132,15 @@ header {
     max-height: 60px;
   }
 
-  .container .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    width: 100%;
-  }
-
-  .container .navbar ul {
-    display: flex;
-    flex-wrap: nowrap;
-    list-style: none;
-    margin-top: -12%;
-    margin-left: 50px;
-  }
-
-  .container .navbar ul li a {
-    text-decoration: none;
-    color: white;
-    font-family: "Open Sans";
-    font-size: 15px;
-    text-transform: uppercase;
-    display: block;
-    width: 120px;
-    cursor: pointer;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-  }
 
   .container .navbar ul li a:hover {
-    color: #ffffff;
-    background-color: rgba(23, 23, 23, 0.9);
-    width: 100px;
+    
+    background-color: transparent;
+    width: 100%;
     cursor: pointer;
+    color: white;
   }
-  .container .navbar ul .close {
-    display: none;
-    text-align: right;
-    padding: 0px 52px;
-    margin-bottom: -37%;
-  }
+  
   
   .container {
     justify-content: space-between;
@@ -219,30 +156,57 @@ header {
   }
 
   .container .navbar ul {
-    flex-wrap: nowrap;
+
+  
     position: fixed;
     left: 100%;
+    top: 0;
     flex-direction: column;
-    background: #ffffff;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
+    justify-content: center;
+    background-color:$background;
+    width: 100vw;
+    height: 100vh;
+    //overflow: auto;
     transition: left 0.3s;
-    display: flex;
+    //display: flex;
   }
 
   .container .navbar ul li a {
-    padding: 7px;
-    font-size: 16px;
-    line-height: normal;
-    color: #555555;
+   
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: rgba(68, 67, 66, 0.2);
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    border: 0.5px solid gray;
+    border-radius:10px ;
+    font-size: 18px;
+    color: white;
   }
+  .overlay{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 60%;
+    height: 70px;
+    line-height: 70px;
+    border: 0.5px solid gray;
+    border-radius:10px ;
+    font-size: 18px;
+    color: white;
+}
+   
 
   .container .navbar ul .close {
-    display: block;
-    padding: 0px 52px;
-    margin-top: 103%;
-    
+    span{
+  border: none;
+}
+     display: block;
+     position: absolute;
+     top:2vh;
+    right: 5px;
+     padding: 0px 52px;
+      
   }
 
   .container .navbar .icon-bar {
@@ -251,7 +215,35 @@ header {
     
   }
 
-  .container .navbar ._Menus-show {
-    left: 10;
-  }
+  .logo-menu-mob{
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 3%;
+  width: 200px;
+  height: 200px;
+  background-image: url('static/logo/logo-small-black.png');
+  background-size: cover;
+  background-position: center;
 }
+.home-mob{
+background-image: url('static/images/almsee3.jpg');
+background-size: cover;
+background-position: center;
+}
+.destinations-mob{
+background-image: url('static/images/balaton1.jpg');
+background-size: cover;
+background-position: center;
+}
+.about-mob{
+background-image: url('static/images/melissani5.jpg');
+background-size: cover;
+background-position: center;
+}
+.contact-mob{
+background-image: url('static/img-pages/btn4.jpg');
+background-size: cover;
+background-position: center;
+}
+}
+

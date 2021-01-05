@@ -34,12 +34,14 @@ body {
   text-align: center;
 }
 main {
+  height: 100vh;
   overflow: auto;
 }
 h1 {
   font-family: $headline-font;
   color: white;
   font-size: $h1-font-size;
+  letter-spacing: 2px;
 }
 
 h2 {
@@ -77,4 +79,13 @@ h3 {
 p {
   text-align: justify;
   padding: 30px;
+}
+header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(29, 26, 26, 0.75);
 }

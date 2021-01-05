@@ -1,50 +1,66 @@
-
-.map1{
-section {
-  position: absolute;
-  bottom: 4vh;
-  width: 18vw;
-  background-color: white;
-  margin-left: 2.5vw;
-  padding-left: 10px;
-  padding-bottom: 20px;
-  text-align: left;
-  h5 {
-  padding: 10px;
-  color:$dark;
-}
-  div {
-    padding-top: 10px;
-  }
-}
-#osm-map {
-  // top: 145px;
-  // bottom: -19vh;
-  width: 70vw;
-  height: 80vh;
-  margin-left: 23vw;
-  
-}
-
-@media screen and(max-width: 768px ) {
-  #osm-map {
-    width: 90vw;
-    margin-left: 5vw;
-    z-index: 0;
-   
-  }
+.map1 {
   section {
     position: absolute;
-    top: 100vh;
-    width: 90vw;
-    margin-left: 5vw;
-    height: 300px;
+    bottom: 4vh;
+    width: 18vw;
+    background-color: white;
+    margin-left: 2.5vw;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+    h5 {
+      padding: 10px;
+      color: $dark;
+    }
+    div {
+      padding-top: 10px;
+    }
+  }
+  #osm-map {
+    width: 70vw;
+    height: 80vh;
+    margin-left: 23vw;
+  }
+
+  @media screen and (max-width: 992px ) {
+    #osm-map {
+      width: 95vw;
+      height: 55vh;
+      margin-left: -2.5vw;
+      z-index: 0;
+    }
+    section {
+      bottom: 4.5vh;
+      width: 95vw;
+      margin-left: -2.5vw;
+      height: 290px;
+      padding-left: 10%;
+    }
+  }
+
+  @media screen and (max-width: 768px ) {
+    #osm-map {
+      width: 88vw;
+      height: 75vh;
+      margin-top: -2.5px;
+      margin-left: .5vw;
+      margin-bottom: 310px;
+      z-index: 0;
+    }
+    section {
+      top: 96.5%;
+      width: 88vw;
+      margin-left: .5vw;
+      height: 290px;
+      padding-left: 10%;
+    }
+  }
+
+  #volcano,
+  #lake,
+  #waterfalls,
+  #cave,
+  #forest:hover {
+    cursor: pointer;
   }
 }
-#volcano,
-#lake,
-#waterfalls,
-#cave,
-#forest:hover {
-  cursor: pointer;
-}}

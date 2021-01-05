@@ -30,28 +30,25 @@
 }
 // Versions tablettes et web
 @media only screen and (min-width: 768px) {
-  h2 {
-    margin-top: 0;
-  }
   .about {
     .about_img {
       position: absolute;
       top: 0;
       z-index: -1;
-      height: 100vh;
+      height: 100%;
       img {
-        height: 100vh;
+        height: 100%;
         object-fit: cover;
       }
     }
     .about_text {
       position: absolute;
       bottom: 0;
-      right: 35px;
-      width: 75%;
+      right: 25px;
+      width: 85%;
       margin-top: 0;
-      padding: 15px 15px 5vh 5px;
-      background-color: rgba(234, 231, 220, 0.85);
+      padding: 20px 10px 3vh 5px;
+      background-color: rgba(234, 231, 220, 0.78);
       line-height: 25px;
     }
   }
@@ -60,7 +57,7 @@
   .about {
     .about_text {
       right: 55px;
-      width: 55%;
+      width: 60%;
       padding: 15px 15px 3vh 5px;
       line-height: 23px;
     }
@@ -69,9 +66,9 @@
 @media only screen and (min-width: 1200px) {
   .about {
     .about_text {
-      width: 48%;
-      padding: 20px 20px 5vh 20px;
-      line-height: 27px;
+      width: 58%;
+      padding: 20px 20px 6.5vh 20px;
+      line-height: 30px;
     }
   }
 }

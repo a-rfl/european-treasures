@@ -33,53 +33,43 @@ export const sectionLieu = (arr, index) => {
     += `<div class="lieu_text_mobile">
     <h4 class="lieu_text_subtitle">Où</h4>
 
-    ${arr[index].pays}
+    <p>${arr[index].pays}</p>
 
     <h4 class="lieu_text_subtitle">Dimensions</h4>
     <div id="dimension_Mobile">`;
 
   if (arr[index].dimensions.superficie) {
     lieu += `
-          <div>
-              <p>Superficie: ${arr[index].dimensions.superficie}</p>
-          </div>`;
+              <p>Superficie: ${arr[index].dimensions.superficie}</p>`;
   }
   if (arr[index].dimensions.longueur) {
     lieu += `
-        <div> 
-          <p>Longueur: ${arr[index].dimensions.longueur}</p>
-        </div>`;
+          <p>Longueur: ${arr[index].dimensions.longueur}</p>`;
   }
 
   if (arr[index].dimensions.largeur) {
     lieu += `
-        <div> 
-          <p>Largeur: ${arr[index].dimensions.largeur}</p>
-        </div>`;
+          <p>Largeur: ${arr[index].dimensions.largeur}</p>`;
   }
 
   if (arr[index].dimensions.altitude) {
     lieu += `
-        <div>
-          <p>Altitude: ${arr[index].dimensions.altitude}</p>
-        </div>`;
+          <p>Altitude: ${arr[index].dimensions.altitude}</p>`;
   }
 
   if (arr[index].dimensions.profondeur) {
     lieu += `
-        <div>
-          <p>Profondeur: ${arr[index].dimensions.profondeur}</p>
-        </div>`;
+          <p>Profondeur: ${arr[index].dimensions.profondeur}</p>`;
   }
 
   lieu += `</div>
 
     <h4 class="lieu_text_subtitle">Description</h4>
 
-    ${arr[index].description}
+    <p>${arr[index].description}</p>
      <div class="galerie">`;
   for (let i = 0; i < arr[index].images.length; i++) {
-    lieu += `<img src="images/${arr[index].images[i]}" alt="${arr[index].nom}" class="image"/> `;
+    lieu += `<div class="galerie_img"><img src="images/${arr[index].images[i]}" alt="${arr[index].nom}" class="image"/></div>`;
   }
   lieu += `</div>
      <div>
@@ -89,46 +79,46 @@ export const sectionLieu = (arr, index) => {
 
 </div>
 <div class="lieu_text">
-${arr[index].description}
+  <h4 class="lieu_text_partie2_text_subtitle description">Description</h4>
+  <p>${arr[index].description}</p>
     <div class="lieu_text_partie2">
-         <div class="lieu_text_partie2_img">
-         <img src="images/${arr[index].images[1]}" alt="${arr[index].nom}" class="img"/> 
-         <div class="lieu_text_partie2_text">
-     <h4 class="lieu_text_partie2_text_subtitle">Dimensions:</h4>
-     <div id="dimension">`;
+      <div class="lieu_text_partie2_text">
+      <div class="subtitle-overline"></div>
+        <h4 class="lieu_text_partie2_text_subtitle where">Où</h4>
+        <p class="country">${arr[index].pays}</p>
+      </div>
+
+      <div class="lieu_text_partie2_img">
+        <img src="images/${arr[index].images[1]}" alt="${arr[index].nom}" class="img"/>
+      </div>
+         
+      <div class="lieu_text_partie2_text">
+        <div id="dimension">
+        <div class="subtitle-overline"></div>
+        <h4 class="lieu_text_partie2_text_subtitle">Dimensions</h4>`;
 
   if (arr[index].dimensions.superficie) {
     lieu += `
-             <div>
-                 <p>Superficie: ${arr[index].dimensions.superficie}</p>
-             </div>`;
+                 <p>Superficie: ${arr[index].dimensions.superficie}</p>`;
   }
   if (arr[index].dimensions.longueur) {
     lieu += `
-           <div> 
-             <p>Longueur: ${arr[index].dimensions.longueur}</p>
-           </div>`;
+             <p>Longueur: ${arr[index].dimensions.longueur}</p>`;
   }
 
   if (arr[index].dimensions.largeur) {
     lieu += `
-           <div>
-             <p>Largeur: ${arr[index].dimensions.largeur}</p>
-           </div>`;
+             <p>Largeur: ${arr[index].dimensions.largeur}</p>`;
   }
 
   if (arr[index].dimensions.altitude) {
     lieu += `
-           <div> 
-             <p>Altitude: ${arr[index].dimensions.altitude}</p>
-           </div>`;
+             <p>Altitude: ${arr[index].dimensions.altitude}</p>`;
   }
 
   if (arr[index].dimensions.profondeur) {
     lieu += `
-           <div> 
-             <p>Profondeur: ${arr[index].dimensions.profondeur}</p>
-           </div>`;
+             <p>Profondeur: ${arr[index].dimensions.profondeur}</p>`;
   }
 
   lieu += `</div>

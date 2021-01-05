@@ -6,7 +6,7 @@ h2 {
   margin-top: 0;
 }
 .contact {
-  background-image: url(./static/images/bled3.jpg);
+  background-image: url(./static/images/quiraing3.jpg);
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -59,7 +59,7 @@ h2 {
 @media only screen and (max-width: 990px) {
   h2 {
     font-size: 40px;
-    margin-top: 20px;
+    padding-top: 80px;
   }
   .contact {
     form {

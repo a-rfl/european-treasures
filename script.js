@@ -84,19 +84,16 @@ $.get('http://localhost:3000/lieux').then((data) => {
       });
 
       // Select filter
-      const options = $('option');
-      for (const option of options) {
-        $(option).on('click', () => {
-          const categorySelected = $(option).val();
-          if ($(option).val() === 'all') {
-            $('.destinations').html(contentDestinations(lieux));
-          } else {
-            const sort = (item) => item.categories.includes(categorySelected);
-            const contentSearched = arr.filter(sort);
-            $('.destinations').html(contentDestinations(contentSearched));
-          }
-        });
-      }
+      $('select').on('change', () => {
+        const categorySelected = $('select').val();
+        if ($('select').val() === 'all') {
+          $('.destinations').html(contentDestinations(lieux));
+        } else {
+          const sort = (item) => item.categories.includes(categorySelected);
+          const contentSearched = arr.filter(sort);
+          $('.destinations').html(contentDestinations(contentSearched));
+        }
+      });
     });
   };
 

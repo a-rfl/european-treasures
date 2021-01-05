@@ -2,18 +2,21 @@
   box-sizing: border-box;
 }
 // Container of the h2 and filters menu
-.destinations-header {
-  z-index: 2;
+.destinations-title {
   position: sticky;
   top: 0;
-  .destinations-title {
-    top: -80px;
-  }
+  transform: translateX(-50%);
+  width: 50%;
+  margin-top: 0;
+}
+.destinations-header {
+  position: sticky;
+  top: 80px;
+  z-index: 1;
 }
 // Filters menu
 .filters {
   width: 100%;
-  margin-top: 80px;
   height: 55px;
   background-color: #8e8d8a;
   display: flex;
@@ -22,15 +25,22 @@
   // Select
   select {
     margin: 0 30px;
-    width: 8%;
-    border: none;
+    width: 8.5%;
+    border: 1px solid white;
+    border-width: 0 .5px;
+    border-radius: 5px;
+    // -webkit-appearance: none;
     color: white;
     background-color: transparent;
     text-align: center;
     text-transform: capitalize;
+    option {
+      background-color: #eae7dc;
+      color: #1d1a1a;
+    }
   }
   // Random button
-  .random {
+  .btn-filter {
     margin: 0 30px;
     color: white;
     background-color: transparent;
@@ -43,13 +53,6 @@
     &:hover {
       background-color: $light-red;
       border-color: transparent;
-    }
-  }
-  // Checkbox map
-  .block-map {
-    margin: 0 30px;
-    label {
-      color: white;
     }
   }
 }
@@ -78,7 +81,7 @@ section.destinations {
     }
   }
 }
-// Mediaqueries 
+// Mediaqueries
 @media only screen and (max-width: 1200px) {
   .filters {
     select {

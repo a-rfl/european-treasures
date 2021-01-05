@@ -3,10 +3,7 @@ header {
   position: fixed;
   height: 80px;
   background-color: rgb(29, 26, 26, 0.75);
-  padding: 10px 0;
   width: 100%;
-  right: 0;
-  left: 0;
 
   .container .navbar ._Menus-show {
     left: 0;
@@ -23,16 +20,18 @@ header {
 .container .logo a {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  height: 60px;
   padding-left: 20px;
+  padding-top: 5px;
+  
 }
 
 .container .logo a img {
-  max-width: 100%;
-  max-height: 60px;
+  max-height: 70px;
 }
 
+.contact-mob{
+  padding-right: 20px;
+}
 .container .navbar {
   display: flex;
   flex: 1;
@@ -42,8 +41,6 @@ header {
 .container .navbar ul {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
   justify-content: space-between;
   width: 100%;
 }
@@ -54,7 +51,6 @@ header {
 .container .navbar ul li a {
   text-decoration: none;
   color: white;
-  font-family: "Open Sans";
   font-size: 17px;
   text-transform: uppercase;
   display: block;
@@ -62,8 +58,9 @@ header {
   cursor: pointer;
   text-align: center;
   position: relative;
-  z-index: 1;
+  
 }
+
 
 .container .navbar ul li a:hover {
   
@@ -75,16 +72,11 @@ header {
 
 .container .navbar ul .close {
   display: none;
-  text-align: right;
-  padding: 10px;
-  margin-top: 1%;
 }
 
 .container .navbar ul .close span {
   font-size: 40px;
   display: inline-block;
-  border: 1px solid #cccccc;
-  padding: 0 10px;
   cursor: pointer;
 }
 
@@ -95,43 +87,54 @@ header {
   display: none;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 10%;
+  margin-right:10px ;
+  margin-top: 15px;
   cursor: pointer;
 }
 
 .container .navbar .icon-bar i {
+
   background-color: #ffffff;
   height: 3px;
 }
+.logo-menu-mob{
+  display:none;
+}
+#about, #contact, #home, #destinations{
+  padding-top: 7px;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+.container .navbar ul li a {
+  display: inline;
+  padding-right: 10px;
+  font-size: 16px;
+}
+.container .navbar ul  {
+  padding-left: 15px;
+}
+.container .logo a{
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+  
+}
 @media only screen and (max-width: 768px) {
+  #about, #contact, #home, #destinations{
+  padding-top: 0;
+}
   .flex-grow{
     display: none;
   }
-  .container {
-    height: 60px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+
 
   .container .logo {
     width: 10%;
   }
 
-  .container .logo a {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    height: 60px;
-    padding-bottom: 80px;
-  }
-
-  .container .logo a img {
-    max-width: 100%;
-    max-height: 60px;
-  }
-
+ 
 
   .container .navbar ul li a:hover {
     
@@ -160,19 +163,19 @@ header {
   
     position: fixed;
     left: 100%;
-    top: 0;
+    top: -20px;
     flex-direction: column;
     justify-content: center;
     background-color:$background;
     width: 100vw;
     height: 100vh;
-    //overflow: auto;
+    overflow: auto;
     transition: left 0.3s;
-    //display: flex;
+  
   }
 
   .container .navbar ul li a {
-   
+    display:block;
     margin: auto;
     margin-bottom: 20px;
     background-color: rgba(68, 67, 66, 0.2);
@@ -183,6 +186,7 @@ header {
     border-radius:10px ;
     font-size: 18px;
     color: white;
+    
   }
   .overlay{
     margin: auto;
@@ -205,7 +209,7 @@ header {
      position: absolute;
      top:2vh;
     right: 5px;
-     padding: 0px 52px;
+     padding: 0px 50px;
       
   }
 
@@ -216,9 +220,10 @@ header {
   }
 
   .logo-menu-mob{
-    margin: auto;
-    margin-bottom: 20px;
-    margin-top: 3%;
+  display: inline;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 3%;
   width: 200px;
   height: 200px;
   background-image: url('static/logo/logo-small-black.png');

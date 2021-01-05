@@ -1,117 +1,101 @@
+.home {
+  background-image: url("./static/img-pages/home-bg.jpg");
+  background-size: cover;
+  background-position: 50% 58%;
+  width: 100%;
+  height: 100vh;
+  padding-top: 5%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .home_logo {
+    display: block;
+    height: 45vh;
+    margin: auto;
+    margin-top: 3.5vh;
+  }
+  h1 {
+    margin: 50px 0;
+    text-align: center;
+    text-shadow: .5px 4px 5px rgb(29, 26, 26, 0.95);
+  }
+  .home_btn {
+    display: block;
+    margin: 20px auto;
+    width: 240px;
+    height: 60px;
+    background-color: #e85a4f;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 60px;
+  }
+}
 
-* {
-    box-sizing: border-box;
-  }
-  html,
-  body {
-    padding: 0;
-    margin: 0;
-    min-height: 100%;
-  }
-  header {
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    background-color: rgba(29, 26, 26, 0.75);
-  }
+@media only screen and (max-width: 1200px) {
   main {
-    height: 100vh;
     .home {
-      background-image: url('./static/img-pages/home-bg.jpg');
-      background-size: cover;
-      background-position: 50% 58%;
-      width: 100%;
-      height: 100vh;
-      padding-top: 5%;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
       .home_logo {
-        display: block;
-        width: 26%;
-        margin: auto;
-      }
-      h1 {
-        margin: 50px 0;
-        text-align: center;
-        font-size: $h1-font-size;
-        color: white;
-        text-shadow: 0 1px 3px rgb(29, 26, 26, 0.85);
+        height: auto;
+        width: 33%;
+        margin-top: 18vh;
       }
       .home_btn {
-        display: block;
-        margin: 20px auto;
-        width: 240px;
-        height: 60px;
-        background-color: #e85a4f;
-        border: none;
-        border-radius: 10px;
-        color: white;
-        letter-spacing: 1px;
+        width: 200px;
+        height: 50px;
+        line-height: 45px;
         font-size: 18px;
-        font-weight: 600;
-        line-height: 60px;
+      }
+      h1 {
+        font-size: 55px;
       }
     }
   }
-  
-  @media only screen and (max-width: 1200px) {
-    main {
-      .home {
-        padding-top: 20vh;
-        .home_btn {
-          width: 200px;
-          height:50px;
-          line-height: 45px;
-          font-size: 18px;
-        }
-        h1 {
-            font-size: 55px;
-        }
+}
+@media only screen and (max-width: 992px) {
+  main {
+    .home {
+      .home_logo {
+        height: auto;
+        width: 40%;
+        margin-top: 25vh;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      .home_btn {
+        width: 200px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 17px;
       }
     }
   }
-  @media only screen and (max-width: 992px) {
-    main {
-      .home {
-        padding-top: 20vh;
-        .home_logo {
-          width: 40%;
-        }
-        h1 {
-          font-size: 50px;
-        }
-        .home_btn {
-          width: 180px;
-          height:45px;
-          line-height: 45px;
-          font-size: 17px;
-        }
+}
+@media only screen and (max-width: 767px) {
+  main {
+    .home {
+      .home_logo {
+        height: auto;
+        width: 60vw;
+        margin-top: 22vh;
+      }
+      h1 {
+        font-size: 38px;
+        padding: 0 10px;
+        letter-spacing: 1px;
+      }
+      .home_btn {
+        width: 160px;
+        height: 40px;
+        line-height: 40px;
+        letter-spacing: 0.5px;
+        font-size: 15px;
       }
     }
   }
-  @media only screen and (max-width: 767px) {
-    main {
-      .home {
-        padding: 40% 5px 0 5px;
-        .home_logo {
-          width: 65%;
-        }
-        h1 {
-          font-size: 40px;
-        }
-        .home_btn {
-          width: 160px;
-          height:40px;
-          line-height: 40px;
-          letter-spacing: .5px;
-          font-size: 16px;
-        }
-      }
-    }
-  }
-  
+}

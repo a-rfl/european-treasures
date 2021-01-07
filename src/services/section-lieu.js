@@ -73,8 +73,8 @@ export const sectionLieu = (arr, index) => {
   }
   lieu += `</div>
      <div>
-     <button type="button" class ="button">Un autre !</button>
-     <button type="button" class="button">Un lieu alétaoire</button>
+     <button type="button" class ="button" id="btn-lieu_random">Un autre !</button>
+     <button type="button" class="button" id="btn-lieu_back-destinations">Voir les autres destinations</button>
      </div>
 
 </div>

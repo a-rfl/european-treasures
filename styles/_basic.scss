@@ -52,8 +52,8 @@ h2 {
   text-align: center;
   text-transform: capitalize;
   left: 50%;
-  width: 50%;
-  transform: translatex(-50%);
+  width: 35%;
+  transform: translatex(-40%);
   z-index: 1;
   line-height: 80px;
   height: 80px;
@@ -88,4 +88,24 @@ header {
   left: 0;
   z-index: 1;
   background-color: rgba(29, 26, 26, 0.75);
+}
+@media only screen and (max-width: 992px){
+  h2{
+   font-size: 45px;
+    transform: translatex(-43%);
+  
+  }
+}
+
+@media only screen and (max-width: 776px){
+  h2{
+    width: 50%;
+    transform: translatex(-48%);
+  }
+}
+@media only screen and (max-width: 550px){
+  h2{
+    width: 70%;
+   font-size: 35px;
+  }
 }

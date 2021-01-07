@@ -55,6 +55,10 @@ $.get('http://localhost:3000/lieux').then((data) => {
     $('main').html(homepage);
     $('main').scrollTop(0);
   });
+  $('#small-logo').on('click', () => {
+    $('main').html(homepage);
+    $('main').scrollTop(0);
+  });
   // Fonction d'event au click sur le bouton de la homepage
   $('body').on('click', '.home_btn', () => {
     randomPlace(lieux);

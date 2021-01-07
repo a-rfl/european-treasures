@@ -166,7 +166,7 @@ header {
   
     position: fixed;
     left: 100%;
-    top: -20px;
+    top: -16px;
     flex-direction: column;
     justify-content: center;
     background-color:$background;
@@ -192,7 +192,7 @@ header {
   }
   .overlay{
     margin: auto;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 60%;
     height: 70px;
     line-height: 70px;
@@ -251,6 +251,13 @@ background-position: center;
 background-image: url('static/img-pages/btn4.jpg');
 background-size: cover;
 background-position: center;
+}
+}
+@media only screen and (max-height: 414px) {
+
+    .logo-menu-mob{
+  display: none;
+
 }
 }
 

@@ -1,15 +1,16 @@
 .map1 {
-  section {
+  .legend {
     position: absolute;
     bottom: 4vh;
     width: 18vw;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
     margin-left: 2.5vw;
     padding-left: 10px;
     padding-bottom: 20px;
     text-align: left;
     h5 {
       padding: 10px;
+      padding-bottom: 0;
       color: $dark;
     }
     div {
@@ -20,42 +21,62 @@
     width: 70vw;
     height: 80vh;
     margin-left: 23vw;
+    z-index: 0;
   }
 
   @media screen and (max-width: 992px ) {
     #osm-map {
       width: 95vw;
-      height: 55vh;
+      height: 60vh;
       margin-left: -2.5vw;
-      z-index: 0;
+      
     }
-    section {
-      bottom: 4.5vh;
+    .legend {
+      top: 83vh;
       width: 95vw;
+       height: 55vh;
       margin-left: -2.5vw;
-      height: 280px;
+      height: vh;
       padding-left: 10%;
-      background-color: rgba(255, 255, 255, 0.5);
+      
+    }
+  }
+  @media screen and (max-width: 776px ) {
+    #osm-map {
+      width: 95vw;
+      height: 75vh;
+      margin-left: -2.5vw;
+      
+    }
+    .legend {
+      top: 98vh;
+      width: 95vw;
+       height: 55vh;
+      margin-left: -2.5vw;
+      height: vh;
+      padding-left: 10%;
+      
+    }
+  }
+   @media screen and (max-height: 414px ) {
+    #osm-map {
+      width: 95vw;
+      height: 60vh;
+      margin-left: -2.5vw;
+      
+    }
+    .legend {
+      top: 100vh;
+      width: 95vw;
+       height: 100vh;
+      margin-left: -2.5vw;
+      height: vh;
+      padding-left: 10%;
+      
     }
   }
 
-  @media screen and (max-width: 768px ) {
-    #osm-map {
-      width: 88vw;
-      height: 75vh;
-      margin-top: -2.5px;
-      margin-left: .5vw;
-      margin-bottom: 310px;
-      z-index: 0;
-    }
-    section {
-      top: 96.5%;
-      width: 88vw;
-      margin-left: .5vw;
-      height: 285px;
-      padding-left: 10%;
-    }
-  }
+  
 
   #volcano,
   #lake,

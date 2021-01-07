@@ -99,3 +99,20 @@
     }
   }
 }
+@media only screen and (max-height: 414px) {
+
+    main {
+    .home {
+      .home_logo {
+        height: auto;
+        width: 23vw;
+        margin-top: 17vh;
+      }
+      h1 {
+        font-size: 33px;
+        margin-top: -4vh;
+        margin-bottom: -2vh;
+      }
+    }
+  }
+}

@@ -93,6 +93,15 @@ section.destinations {
     }
   }
 }
+@media only screen and (max-width: 1348px) {
+  section.destinations {
+    .destination {
+      h3 {
+        top: 63%;
+      }
+    }
+  }
+}
 // Mediaqueries
 @media only screen and (max-width: 1200px) {
   .filters {
@@ -107,6 +116,7 @@ section.destinations {
   section.destinations {
     .destination {
       h3 {
+        top: 65%;
         height: 50px;
         line-height: 50px;
         font-size: 18px;
@@ -130,6 +140,9 @@ section.destinations {
       width: 30%;
       padding-top: 30%;
       margin: 0 5px 25px 5px;
+      h3 {
+        top: 65%;
+      }
     }
   }
 }
@@ -155,8 +168,9 @@ section.destinations {
       padding-top: 45%;
       margin: 0 5px 25px 5px;
       h3 {
-        height: 40px;
-        line-height: 40px;
+        top: 60%;
+        height: 45px;
+        line-height: 45px;
         font-size: 15px;
       }
     }

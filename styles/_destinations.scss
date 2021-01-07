@@ -6,7 +6,7 @@
   position: sticky;
   top: 0;
   transform: translateX(-50%);
-  width: 50%;
+  width: 35%;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -23,10 +23,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
   // Select
   select {
     margin: 0 30px;
-    width: 8.5%;
+    width: 120px;
+    height: 30px;
     border: 1px solid white;
     border-width: 0 .5px;
     border-radius: 5px;
@@ -35,6 +37,11 @@
     background-color: transparent;
     text-align: center;
     text-transform: capitalize;
+    font-size: 16px;
+     &:hover {
+      background-color: $light-red;
+      border-color: transparent;
+    }
     option {
       background-color: #eae7dc;
       color: #1d1a1a;
@@ -49,8 +56,12 @@
     border: 0.5px solid white;
     border-width: 0 0.5px;
     border-radius: 5px;
-    font-size: 15.5px;
+    font-size: 16px;
     cursor: pointer;
+    width: 120px;
+    height: 30px;
+  
+
     &:hover {
       background-color: $light-red;
       border-color: transparent;
@@ -71,7 +82,7 @@ section.destinations {
     background-size: cover;
     margin: 0 10px 25px 10px;
     position: relative;
-    border: 0.2px solid black;
+    border: 0.2px solid gray;
     h3 {
       position: absolute;
       background-color: rgba(0, 0, 0, 0.527);

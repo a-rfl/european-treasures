@@ -4,7 +4,10 @@ import { header } from './src/services/section-header';
 import { randomIndex } from './src/helpers/random';
 import { sectionLieu } from './src/services/section-lieu';
 import { homepage } from './src/services/homepage';
-import { headerDestinations, contentDestinations } from './src/services/section-destinations';
+import {
+  headerDestinations,
+  contentDestinations,
+} from './src/services/section-destinations';
 import { sectionAbout } from './src/services/section-about';
 import { sectionContact } from './src/services/section-contact';
 import { sectionMap } from './src/services/section-map';
@@ -29,11 +32,14 @@ const carousel = function () {
   });
 };
 const randomPlace = (arr) => {
-// Retourne un index aléatoirement et le stocke dans la variable indexPlace
+  // Retourne un index aléatoirement et le stocke dans la variable indexPlace
   const indexPlace = randomIndex(arr);
   // Remplace le contenu de la balise main par une section de lieu
   // Le lieu est récupéré dans la liste grâce à l'index stockée dans indexPlace
   $('main').html(sectionLieu(arr, indexPlace));
+  if (arr[indexPlace].images.length > 2) {
+    carousel();
+  }
 };
 
 $.get('http://localhost:3000/lieux').then((data) => {
@@ -47,20 +53,22 @@ $.get('http://localhost:3000/lieux').then((data) => {
   /* HOMEPAGE */
   $('#home').on('click', () => {
     $('main').html(homepage);
+    $('main').scrollTop(0);
   });
   // Fonction d'event au click sur le bouton de la homepage
   $('body').on('click', '.home_btn', () => {
     randomPlace(lieux);
-    carousel();
   });
 
   /* ABOUT */
   $('#about').on('click', () => {
     $('main').html(sectionAbout());
+    $('main').scrollTop(0);
   });
   /* CONTACT */
   $('#contact').on('click', () => {
     $('main').html(sectionContact());
+    $('main').scrollTop(0);
   });
 
   const render = (arr) => {
@@ -73,7 +81,6 @@ $.get('http://localhost:3000/lieux').then((data) => {
       // Display a random place when clicked
       $('.random').on('click', () => {
         randomPlace(arr);
-        carousel();
       });
 
       // Button displaying map
@@ -102,7 +109,24 @@ $.get('http://localhost:3000/lieux').then((data) => {
   $('body').on('click', '.destination', (e) => {
     const { id } = e.currentTarget;
     $('main').html(sectionLieu(lieux, id));
-    carousel();
+    $('main').scrollTop(0);
+    if (lieux[id].images.length > 2) {
+      carousel();
+    }
+  });
+
+  // Button random on section lieu
+  // Display a random place
+  $('body').on('click', '#btn-lieu_random', () => {
+    randomPlace(lieux);
+    $('main').scrollTop(0);
+  });
+
+  // Button "voir les autres destinations"
+  // Display the destinations sections
+  $('body').on('click', '#btn-lieu_back-destinations', () => {
+    $('main').html([headerDestinations(), contentDestinations(lieux)]);
+    $('main').scrollTop(0);
   });
 
   render(lieux);

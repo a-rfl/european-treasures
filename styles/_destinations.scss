@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-Container of the h2 and filters menu
+//Container of the h2 and filters menu
 .destinations-title {
   position: sticky;
   top: 0;
@@ -69,16 +69,19 @@ Container of the h2 and filters menu
     }
   }
 }
+.barrier{
+  width: 100%;
+  height: 5vh;
+}
 // Section displaying the different destinations
 section.destinations {
   
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 90%;
   margin: 2% auto 0 auto;
-  margin-top: 145px;
   .destination {
     width: 22%;
     padding-top: 22%;
@@ -93,6 +96,9 @@ section.destinations {
       height: 65px;
       line-height: 65px;
       top: 68%;
+    }
+    &:hover{
+      cursor: pointer;
     }
   }
 }
@@ -148,6 +154,10 @@ section.destinations {
       }
     }
   }
+  .barrier{
+ 
+  height: 7vh;
+}
 }
 // Smartphone
 @media only screen and (max-width: 767px) {

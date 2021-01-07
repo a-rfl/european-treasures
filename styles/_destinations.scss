@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-// Container of the h2 and filters menu
+Container of the h2 and filters menu
 .destinations-title {
   position: sticky;
   top: 0;
@@ -11,9 +11,10 @@
   margin-bottom: 0;
 }
 .destinations-header {
-  position: sticky;
+  position: fixed;
   top: 80px;
   z-index: 1;
+  width: 100%;
 }
 // Filters menu
 .filters {
@@ -70,12 +71,14 @@
 }
 // Section displaying the different destinations
 section.destinations {
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   width: 90%;
   margin: 2% auto 0 auto;
+  margin-top: 145px;
   .destination {
     width: 22%;
     padding-top: 22%;
@@ -97,11 +100,11 @@ section.destinations {
 @media only screen and (max-width: 1200px) {
   .filters {
     select {
-      width: 10%;
+     // width: 10%;
     }
     .random {
       padding: 5px 10px;
-      font-size: 15px;
+      font-size: 16px;
     }
   }
   section.destinations {
@@ -118,11 +121,11 @@ section.destinations {
 @media only screen and (max-width: 992px) {
   .filters {
     select {
-      width: 12%;
+      //width: 12%;
     }
     .random {
       padding: 5px 10px;
-      font-size: 15px;
+      //font-size: 16px;
     }
   }
   section.destinations {
@@ -136,14 +139,19 @@ section.destinations {
 // Smartphone
 @media only screen and (max-width: 767px) {
   .filters {
+    .map{
+      font-size: 14px;
+    }
     select {
       margin: 0 10px;
-      width: 27%;
+      font-size: 14px;
+     // width: 27%;
     }
     .random {
       margin: 0 10px;
       padding: 5px 10px;
-      font-size: 15px;
+      font-size: 14px;
+      line-height: 12px;
     }
     .block-map {
       margin: 0 10px;

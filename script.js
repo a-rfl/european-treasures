@@ -101,6 +101,7 @@ $.get('http://localhost:3000/lieux').then((data) => {
           $('.destinations').html(contentDestinations(contentSearched));
         }
       });
+      $('main').scrollTop(0);
     });
   };
 
@@ -125,8 +126,7 @@ $.get('http://localhost:3000/lieux').then((data) => {
   // Button "voir les autres destinations"
   // Display the destinations sections
   $('body').on('click', '#btn-lieu_back-destinations', () => {
-    $('main').html([headerDestinations(), contentDestinations(lieux)]);
-    $('main').scrollTop(0);
+    $('#destinations').click();
   });
 
   render(lieux);

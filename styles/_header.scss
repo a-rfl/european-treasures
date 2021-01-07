@@ -253,4 +253,11 @@ background-size: cover;
 background-position: center;
 }
 }
+@media only screen and (max-height: 414px) {
+
+    .logo-menu-mob{
+  display: none;
+
+}
+}
 

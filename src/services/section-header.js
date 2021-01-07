@@ -3,7 +3,7 @@ export const header = `
 
 
 <div class="container">
-        <div class="logo">
+        <div  id="small-logo"class="logo">
             <a href="#"><img src="logo/logo-small-white.png" alt="logo"></a>
         </div>
     <div class="navbar">
@@ -34,8 +34,10 @@ function Show() {
   navList.classList.add('_Menus-show');
       const h2 = document.querySelector('h2');
   h2.style.opacity = 0;
+  h2.style.width = 0;
   const menuFilter = document.querySelector('.destinations-header');
   menuFilter.style.opacity = 0;
+  menuFilter.style.width = 0;
 }
 function Hide() {  
   navList.classList.remove('_Menus-show');

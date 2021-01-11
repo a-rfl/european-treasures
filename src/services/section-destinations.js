@@ -18,7 +18,8 @@ export const headerDestinations = () => {
 
         <button class="map btn-filter">Carte</button>
       </div>
-    </div>`;
+    </div>
+    <div class= "barrier"><div>`;
 
   return destinations;
 };

@@ -76,13 +76,26 @@
     }
   }
 
-  
-
   #volcano,
   #lake,
   #waterfalls,
   #cave,
   #forest:hover {
+    cursor: pointer;
+  }
+}
+.popup{
+  
+  h6{
+    font-size: 18px;
+    color: $light-red;
+    margin: 10px;
+  }
+  p{
+    padding: 0;
+    font-size: 18px;
+  }
+  &:hover{
     cursor: pointer;
   }
 }

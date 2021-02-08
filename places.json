@@ -1,0 +1,787 @@
+{
+  "lieux": [
+    {
+      "id": 1,
+      "categories": ["volcan"],
+      "nom": "Askja",
+      "localisation": "65° 02′ N, 16° 45′ O",
+      "lon": "65.033333",
+      "lat": "-16.750000",
+      "pays": "Islande",
+      "dimensions": {
+        "altitude": "1 516 m",
+        "superficie": "62,17 km²"
+      },
+      "description": "L'Askja est un emboîtement de caldeiras (système volcanique) et est situé dans le center-est de l’Islande. Askja en islandais signifie \"boîte\", mais aussi le mot \"caldeira\" dans un vocabulaire plus spécifique à la géologie. Au centre s’étend une caldeira de 45km² de superficie et se compose de 3 plus petites caldeiras. Sa dernière éruption remonte à 60 ans, mais son éruption la plus célèbre est celle de 1875 car elle eut un énorme impact sur la vie de l'Est du pays. Le cratère Víti (l'un des cratère en son centre) aurait, d'ailleiurs, été formé par cette éruption. Il est de nos jours trés apprécié pour ses eaux flirtant avec les 25°C, malgré que la baignade soit déconseillée dû à la présence de CO2. Depuis 1978, L’Askja est protégé par une mesure de protection de l’environnement.",
+      "images": ["askja.jpg", "askja2.jpg"]
+    },
+    {
+      "id": 2,
+      "categories": ["volcan"],
+      "nom": "Katla",
+      "localisation": "63° 38′ N, 19° 03′ O",
+      "lon": "63.633333",
+      "lat": "-19.050000",
+      "pays": "Islande",
+      "dimensions": {
+        "altitude": "1 512m",
+        "superficie": "110 km²"
+      },
+      "description": "Le Katla est un volcan recouvert par le Mýrdalsjökull, une calotte glaciaire située au Sud de l'Islande. Il est situé à l’Est de Eyjafjöll, un autre volcan qui est considéré comme lié au Katla. Ce volcan est l’un des plus actifs et des plus destructeurs d’Islande. Il est d'ailleurs à l'origine de plusieurs crue brutale et extrêment puissante et dévastatrices produisant une vindage brutale de son lac glaciaire ou plus simplement des \"jökulhlaups\" (terme islandais) . Du haut de ses 200 000 ans, le Katla est toujours actif malgré que sa dernière éruption date de 1918 (du 12/10 au 04/11/1918). Une série Netflix, réalisée par un islandais, racontera une histoire basée sur ce volcan et la ville, située en contre-bas du volcan, Vík.",
+      "images": ["katla-myrdalsjokull.jpg", "katla.jpg"]
+    },
+    {
+      "id": 3,
+      "categories": ["volcan"],
+      "nom": "Krafla",
+      "localisation": "65° 42′ 50″ N, 16° 43′ 41″ O",
+      "lon": "65.713889",
+      "lat": "-16.728056",
+      "pays": "Islande",
+      "dimensions": {
+        "altitude": "818 m"
+      },
+      "description": "Le Krafla est une ride issue de l'altération de matériaux volcaniques par l'eau, situé au Nord de l’Islande, donnant son nom à un système volcanique. Le système est centrée autour d'une caldeira située entre le Krafla et les Gaesafjöll, dont la chambre magmatique a été atteinte par un forage géothermique à une courte distance de la surface du sol. Cette proximité de la surface fait de l'ensemble de la région un champ hydrothermal. Ce volcan a connu sa dernière éruption en septembre 1984, ce qui fait de lui un volcan actif.",
+      "images": ["krafla.jpg", "krafla2.jpg"]
+    },
+    {
+      "id": 4,
+      "categories": ["volcan", "lac"],
+      "nom": "Kerið",
+      "localisation": "64° 02′ 24″ N, 20° 53′ 17″ O",
+      "lon": "64.040000",
+      "lat": "-20.888056",
+      "pays": "Islande",
+      "dimensions": {
+        "profondeur": "55 m",
+        "longueur": "0,27 km",
+        "largeur": "0,17 km"
+      },
+      "description": "Le Kerið est un petit volcan éteint, probablement découvert par les Vickings,situé dans la région de Grímsnes dans le sud-ouest de l’Islande. Son fond est occupé par un des nombreux lacs de cratères de la région formés lors de mouvements de terrain. Parmis les différents lacs de cratère de la région, il est celui dont le rebord est le mieux conservé et est composé de roches volcaniques rouges tandis que les autres sont constitués de roches volcaniques noires. A cause de la teneur du sol en minéraux, les eaux du lac ont une couleur aigu-marine profonde et intense.",
+      "images": ["kerid.jpg", "kerid2.jpg", "kerid3.jpg"]
+    },
+    {
+      "id": 5,
+      "categories": ["volcan"],
+      "nom": "Quiraing",
+      "localisation": "57° 38′ 37″ N, 6° 15′ 55″ O",
+      "lon": "57.643611",
+      "lat": "-6.265278",
+      "pays": "Ecosse",
+      "dimensions": {
+        "altitude": "543 m",
+        "longueur": "6,8 km"
+      },
+      "description": "Le Quiraing est une formation volcanique née d’un glissement de terrain sur le Trotternish (péninsule de l’île de Skye en Écosse). Toujours en mouvement aujourd’hui et la route qui passe à sa base, près de la ville de Flodigarry, est surveillée chaque année. Le nom \"Quiraing\" vient du nom \"Old Norse Kvi Rand\" qui signifie en anglais \"Round Table\" (\"Table Ronde\" en français). Dans les plis de la formation se trouve \"La Table\", un plateau surélévé et caché par les pilliers que constitue la formation. Il est dit que \"La Table\" aurait été utilisé pour cacher le bétail des Vickings.",
+      "images": [
+        "quiraing.jpg",
+        "quiraing2.jpg",
+        "quiraing3.jpg",
+        "quiraing4.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "categories": ["volcan"],
+      "nom": "Etna",
+      "localisation": "37° 45′ 18″ N, 14° 59′ 42″ E",
+      "lon": "37.755000",
+      "lat": "14.995000",
+      "pays": "Italie",
+      "dimensions": {
+        "altitude": "3 330 m",
+        "superficie": "1 200 km²"
+      },
+      "description": "L’Etna est situé en Sicile près de la ville de Catane. Il est également appelé : Ætna, Etnea, Monte di Catania ou encore Mons Gibel Utlamat. Ce volcan, agé de 500 000 ans, est toujours actif et entre régulièrement en éruption. Il est Le volcan le plus grand et le plus actif d'Europe. L'Etna est à l'origne de divers mythes, par exmple : Le géant Encelade aurait déserté le champs de bataille contre les Titans, pour le punir Athena l’emprisonne sous l’île de la Sicile. La lave du volcan serait son haleine de feu et il provoquerait des seismes d’origine volcanique lorsqu’il se retourne. Ou encore la nymphe Ætna lui aurait donné naissance et son nom, après son union avec Héphaistos. La forge d’Héphaistos se trouverait en dessous, où il fabriquerait les armes des Dieux",
+      "images": ["etna.jpg", "etna2.jpg", "etna3.jpg"]
+    },
+    {
+      "id": 7,
+      "categories": ["volcan"],
+      "nom": "Chaîne des Puys",
+      "localisation": "45.5°N 2.8°E ",
+      "lon": "45.500000",
+      "lat": "2.800000",
+      "pays": "France",
+      "dimensions": {
+        "altitude": "Entre 328 m et 1 465 m",
+        "longueur": "45 km"
+      },
+      "description": "La Chaîne des Puys est un ensemble de plus ou moins 80 volcans dans le nord du Massif central,aussi appelée \"Monts Dôme\".La construction de ces volcans résulte d’une seule phase d’activité éruptive, c’est pourquoi ils ont une taille si modeste. La première éruption ayant eu lieu, il y a 95 000 ans et la dernière, 8 600 ans. Les volcans constituant la Chaînes des Puys sont endormis, ce qui signifie qu'ils ont connu leur dernière éruption, il y a maximum 10 000 ans. Ils font parties des célèbres volcans d’Auvergne, qui eux-mêmes font partie du parc national des volcans d’Auvergne. Depuis juillet 2018, la chaîne a été ajouté à la liste des sites naturels du patrimoine mondial de l’UNESCO.",
+      "images": ["chaine-des-puys.jpg", "chaine-des-puys2.jpg"]
+    },
+    {
+      "id": 8,
+      "categories": ["forêt"],
+      "nom": "Forêt Noire",
+      "localisation": "48.300°N 8.150°E ",
+      "lon": "48.300000",
+      "lat": "8.150000",
+      "pays": "Allemagne",
+      "dimensions": {
+        "altitude": "1 493 m",
+        "superficie": "6 009 km²"
+      },
+      "description": "La Forêt Noire est située sur un massif montagneux dans le Sud-Ouest de l'Allemagne. Autrefois, cette forêt était connu sous le nom de \"Abnoba mons\" ou \"Abnoba silva\". Abnoba étant la \"sylve noire\", une divinité celte de la faune. A travers elle, on trouve des paysages très variés. La partie nord nous dévoile des épicéas bordant les routes, la partie centrale présente principalement des pâturages et des fermes-auberges et au sud, des lacs et des hauts sommets.",
+      "images": [
+        "foret-noire.jpg",
+        "foret-noire2.jpg",
+        "foret-noire3.jpg",
+        "foret-noire4.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "categories": ["forêt"],
+      "nom": "Bois de Hal",
+      "localisation": "50° 42′ 28″ N, 4° 17′ 41″ E",
+      "lon": "50.707778",
+      "lat": "4.294722",
+      "pays": "Belgique",
+      "dimensions": {
+        "altitude": "123 m",
+        "superficie": "552 ha"
+      },
+      "description": "Le bois de Hal est situé à cheval sur la région flamande et la région wallone. Ce bois est principalement connu pour ses étendues de jacinthes violettes fleurissant de fin avril à début mai.",
+      "images": ["bois-de-hal.jpg", "bois-de-hal2.jpg", "bois-de-hal3.jpg"]
+    },
+    {
+      "id": 10,
+      "categories": ["forêt"],
+      "nom": "Forêt Białowieża",
+      "localisation": "52° 42′ 02″ N, 23° 52′ 01″ E",
+      "lon": "52.700556",
+      "lat": "23.866944",
+      "pays": "Pologne et Biélorussie",
+      "dimensions": {
+        "altitude": "175 m",
+        "superficie": "141 885 ha"
+      },
+      "description": "La forêt Białowieża est l'une des dernères forêts d'Europe n'ayant pas été influcée par l'activité humaine. Elle a été formée, lors de la dernière période glaciaire, il y a 10 000 ans et depuis, elle est restée à l'écart des influences humaines. On y trouve, d'ailleurs, la plus grande population de bisons d'Europe. Son nom, Białowieża, signifie \"tour blanche\" en polonais, mais son origine reste discutées par les historiens. Elle a été inscrite à la liste du Patrimoine mondial de l'UNESCO en 1979.",
+      "images": ["bialowieza.jpg", "bialowieza2.jpg"]
+    },
+    {
+      "id": 11,
+      "categories": ["forêt"],
+      "nom": "Forêt de Tronçais",
+      "localisation": "46° 38′ 29″ nord, 2° 43′ 17″ est",
+      "lon": "46.60963",
+      "lat": "2.686616",
+      "pays": "France",
+      "dimensions": {
+        "altitude": "entre 205 m et 360 m",
+        "superficie": "10 600 ha"
+      },
+      "description": "La forêt de Tronçais est une forêt domaniale française située dans le nord-ouest de l'Allier. Elle est principalement constituée de chênes sessiles « conduits » en futaie. En 2011, la forêt s'étendait sur près de 10 600 ha, incluant 110 hectares classés en réserves biologiques domaniales (Nantigny et la futaie Colbert) et environ 130 ha d'étangs, elle a la réputation d'être la plus belle futaie de chênes d'Europe.",
+      "images": [
+        "troncais.jpg",
+        "troncais2.jpg",
+        "troncais3.jpg",
+        "troncais4.jpg"
+      ]
+    },
+    {
+      "id": 12,
+      "categories": ["grotte"],
+      "nom": "Gaping Gill",
+      "localisation": "54°08′58″N 2°22′57″W",
+      "lon": "54.149444",
+      "lat": "-2.382500",
+      "pays": "Angleterre",
+      "dimensions": {
+        "profondeur": "192 m",
+        "longueur": "21 km"
+      },
+      "description": "Gaping Gill est une cavité naturelle des Yorkshire Dales en Angleterre. Il s'agit de l'une des curiosités les plus immanquables des monts d'Ingleborough : un large puits de 105 m de profondeur où se déverse une cascade. Après son saut dans l'une des plus larges chambres souterraines connue d'Angleterre, l'eau disparaît dans le sol chaotique et résurge au niveau de la grotte d'Ingleborough.",
+      "images": [
+        "gaping-gill.jpg",
+        "gaping-gill1.jpg",
+        "gaping-gill3.jpg",
+        "gaping-gill4.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "categories": ["grotte"],
+      "nom": "Grottes de Postojna",
+      "localisation": "45 ° 47 ′ N, 14 ° 13 ′ E",
+      "lon": "45.78320186",
+      "lat": "14.20422793",
+      "pays": "Slovénie",
+      "dimensions": {
+        "altitude": "680 m",
+        "longueur": "24 120 m"
+      },
+      "description": "Les grottes de Postojna, aussi appelées \"Grotte d'Adelsberg\", est un long système de grottes karstiques près de la ville slovène de Postojna. Avec une longueur connue de 24 120 m, c'est la plus longue grotte de Slovénie et la deuxième plus grande grotte de stalactites au monde. Les grottes ont été formées par la rivière Pivka. 5,3 km des grottes sont ouvertes au public. Les grottes sont ouvertes tous les jours et font partie des attractions touristiques les plus visitées du pays. Un train traverse une partie des grottes.",
+      "images": [
+        "postojna1.jpg",
+        "postojna2.jpg",
+        "postojna3.jpg",
+        "postojna4.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "categories": ["grotte"],
+      "nom": "Grotte Eisriesenwelt",
+      "localisation": "47°30′11″N 13°11′25″E",
+      "lon": "47.503056",
+      "lat": "13.190278",
+      "pays": "Autriche",
+      "dimensions": {
+        "longueur": "plus de 42 km"
+      },
+      "description": "La grotte Eisriesenwelt est une cavité souterraine formant une glacière naturelle située près de la ville de Werfen en Autriche dans le Land de Salzbourg, district de Sankt Johann im Pongau. C'est la plus grande grotte de glace du monde, s'étendant sur plus de 42 kilomètres.",
+      "images": [
+        "eisriesenwelt1.jpg",
+        "eisriesenwelt2.jpg",
+        "eisriesenwelt3.jpg",
+        "eisriesenwelt4.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "categories": ["grotte"],
+      "nom": "Grottes du Drach",
+      "localisation": "39° 32′ 9.24″ N, 3° 19′ 49.44″ E",
+      "lon": "39.535900",
+      "lat": "3.330400",
+      "pays": "Espagne",
+      "dimensions": {
+        "longueur": "2 400 m (connue)",
+        "profondeur": "25 m"
+      },
+      "description": "Les grottes du Drach étaient déjà connues durant le Moyen Âge et ont été explorées au cours de l’année 1880 par M.F. Will et en 1896 par E.A. Martel, qui a découvert la grotte où se trouve le lac qui porte son nom. Le lac Martel est l'un des plus grands lacs souterrains d'Europe avec une longueur de 115 m et une largeur de 30 m. Entre 1922 et 1935, la grotte a été aménagée pour pouvoir être visitée, avec l’ouverture d’un nouvel accès d’entrée, le tracé de chemins, d’escaliers…, et surtout avec la réalisation d’un éclairage électrique conçu par l'ingénieur M. Buigas.",
+      "images": ["drach1.jpg", "drach2.jpg", "drach3.jpg", "drach4.jpg"]
+    },
+    {
+      "id": 16,
+      "categories": ["grotte"],
+      "nom": "Grotte de St Marcel",
+      "localisation": "44 ° 20′N, 4 ° 32′E",
+      "lon": "44.3322288",
+      "lat": "4.54128557",
+      "pays": "France",
+      "dimensions": {
+        "altitude": "100 m (entrée)",
+        "longueur": "57 km (connue)"
+      },
+      "description": "La grotte de Saint Marcel d'Ardèche est une grotte de stalactites située en Ardèche (France), qui est l'une des plus longues grottes d'Europe et la plus longue d'Ardèche à ce jour. La grotte se compose d'un réseau de 57 km de passages souterrains, situés à différentes profondeurs et interconnectés. La longueur exceptionnelle du réseau souterrain, la taille des halles et la beauté des gisements de calcaire font de cette grotte l'une des plus belles et célèbres d'Europe. Seule une petite partie des 57 km est ouverte aux touristes. Cette grotte a une température constante de 14 degrés Celsius.",
+      "images": [
+        "saint-marcel1.jpg",
+        "saint-marcel2.jpg",
+        "saint-marcel3.jpg",
+        "saint-marcel4.jpg"
+      ]
+    },
+    {
+      "id": 17,
+      "categories": ["grotte"],
+      "nom": "Grotte Bleue",
+      "localisation": "40 ° 34′N, 14 ° 12′E",
+      "lon": "40.5609603",
+      "lat": "14.2060944",
+      "pays": "Italie",
+      "dimensions": {
+        "longueur": "60 m",
+        "largeur": "25 m",
+        "profondeur": "environ 13 m"
+      },
+      "description": "La grotte bleue, appelée \"Grotta Azzurra\" en italien, est une grotte sur la côte de l'île de Capri à laquelle l'accès se restreint à 2 entrées : une sous-marine et l'autre à seulement 1 m au dessus de la mer. La grotte est accessible en bateau depuis le port de Marina Grande dans la ville de Capri. Durant l'Antiquité romaine, cette grotte est un sanctuaire dédié aux nymphes aquatiques. Plus tard, elle fut évitée car considérée comme un lieu de sorcellerie et de superstition à cause de ses eaux bleues. L'éclat de ses eaux est dû à la lumière naturelle se réfractant dans les parois de la grotte après avoir pénétrées l'eau.",
+      "images": [
+        "grotta-azzurra1.jpg",
+        "grotta-azzurra2.jpg",
+        "grotta-azzurra3.jpg",
+        "grotta-azzurra4.jpg"
+      ]
+    },
+    {
+      "id": 18,
+      "categories": ["grotte"],
+      "nom": "Grotte de Glace",
+      "localisation": "45° 55′ 48″ N, 6° 55′ 20″ E",
+      "lon": "45.930000",
+      "lat": "6.922222",
+      "pays": "France",
+      "dimensions": {
+        "hauteur": "20 à 30 m"
+      },
+      "description": "La grotte de glace de Chamonix est une grotte creusée chaque année dans la Mer de Glace depuis le milieu du 19e siècle. Le renouvellement annuel est rendu nécessaire par l'écoulement du glacier qui est d'environ 70 mètres par an. Elle accueille 350 000 visiteurs par an ce qui en fait un des sites les plus visités du département.",
+      "images": [
+        "grotte-de-glace1.jpg",
+        "grotte-de-glace2.jpg",
+        "grotte-de-glace3.jpg",
+        "grotte-de-glace4.jpg",
+        "grotte-de-glace5.jpg"
+      ]
+    },
+    {
+      "id": 19,
+      "categories": ["lac"],
+      "nom": "Eibsee",
+      "localisation": "47° 27′ 28″ N, 10° 58′ 23″ E",
+      "lon": "47.457778",
+      "lat": "10.973056",
+      "pays": "Allemagne",
+      "dimensions": {
+        "altitude": "973,28 m",
+        "longueur": "3,15 km",
+        "largeur": "0,56 km",
+        "superficie": "177,4 ha",
+        "profondeur": "35,4 m"
+      },
+      "description": "Le lac d'Eibsee est un lac en Bavière, en Allemagne, à 9 km au sud-ouest de Garmisch-Partenkirchen et à environ 100 km au sud-ouest de Munich. À une altitude de 973,28 m, sa superficie est de 177,4 ha. L'Eibsee est à la base de la Zugspitze - 2962 m, la plus haute montagne d'Allemagne. Il y a 8 îles : Almbichl, Ludwigsinsel, Scheibeninsel, Maximiliansinsel, Schönbichl, Braxeninsel, Sasseninsel, Steinbichl. Le lac se trouve dans la municipalité de Grainau et est une propriété privée.",
+      "images": [
+        "eibsee1.jpg",
+        "eibsee2.jpg",
+        "eibsee3.jpg",
+        "eibsee4.jpg",
+        "eibsee5.jpg",
+        "eibsee6.jpg",
+        "eibsee7.jpg"
+      ]
+    },
+    {
+      "id": 20,
+      "categories": ["lac"],
+      "nom": "Morskie Oko",
+      "localisation": "49° 11′ 50″ N, 20° 04′ 15″ E",
+      "lon": "49.197222",
+      "lat": "20.070833",
+      "pays": "Pologne",
+      "dimensions": {
+        "altitude": "1395,4 m",
+        "longueur": "862 m",
+        "largeur": "566 m",
+        "superficie": "34,93 ha",
+        "profondeur": "50,8 m"
+      },
+      "description": "Morskie Oko, ou œil de la mer en français, est le plus grand lac d'origine glaciaire et le quatrième lac le plus profond des Tatras, dans le sud de la Pologne. Il est situé au cœur du parc national des Tatras dans la vallée de Rybi Potok (le ruisseau aux poissons), de la chaîne de montagnes des Hautes Tatras, au pied des sommets Mięguszowiecki, dans la voïvodie de Petite-Pologne. Il a été reconnu, par The Wall Street Journal, l'un des 5 plus beaux lacs du monde.",
+      "images": [
+        "morskie_oko1.jpg",
+        "morskie_oko2.jpg",
+        "morskie_oko3.jpg",
+        "morskie_oko4.jpg",
+        "morskie_oko5.jpg",
+        "morskie_oko6.jpg",
+        "morskie_oko7.jpg",
+        "morskie_oko8.jpg"
+      ]
+    },
+    {
+      "id": 21,
+      "categories": ["lac"],
+      "nom": "Almsee",
+      "localisation": "47° 45′ 14″ N, 13° 57′ 28″ E",
+      "lon": "47.753889",
+      "lat": "13.957778",
+      "pays": "Autriche",
+      "dimensions": {
+        "altitude": "589 m",
+        "superficie": "85 ha",
+        "longueur": "2,3 km",
+        "largeur": "700 m",
+        "profondeur": "2,5 m (moyenne)"
+      },
+      "description": "Almsee, parfois aussi appelé lac d'Alm, est un lac de la partie haute-autrichienne du Salzkammergut dans la vallée de l'Almtal, à 11 kilomètres au sud du village de Grünau im Almtal. Le lac se trouve dans la partie nord des montagnes Totes Gebirge et mesure environ 2,3 kilomètres sur 700 mètres de large. Le lac s'écoule à travers la rivière Alm. Depuis 1965, la zone autour de l'Almsee est protégée.",
+      "images": [
+        "almsee1.jpg",
+        "almsee2.jpg",
+        "almsee3.jpg",
+        "almsee4.jpg",
+        "almsee5.jpg",
+        "almsee6.jpg",
+        "almsee7.jpg"
+      ]
+    },
+    {
+      "id": 22,
+      "categories": ["lac"],
+      "nom": "Bled",
+      "localisation": "46°21′52″N 14°05′41″E",
+      "lon": "46.364444",
+      "lat": "14.094722",
+      "pays": "Slovenie",
+      "dimensions": {
+        "superficie": "145 ha",
+        "longueur": "2,1 km",
+        "largeur": "1,4 km",
+        "altitude": "475 m",
+        "profondeur": "30,6 m"
+      },
+      "description": "Le lac de Bled, en slovène : Blejsko jezero, est un lac d'origine glaciaire en Slovénie. Situé dans la région de Haute-Carniole à 55 kilomètres au nord-ouest du centre de la capitale Ljubljana, en bordure orientale des Alpes juliennes, c'est l'une des principales destinations touristiques du pays.",
+      "images": [
+        "bled1.jpg",
+        "bled2.jpg",
+        "bled3.jpg",
+        "bled4.jpg",
+        "bled5.jpg",
+        "bled6.jpg"
+      ]
+    },
+    {
+      "id": 23,
+      "categories": ["lac"],
+      "nom": "Balaton",
+      "localisation": "46° 50′N, 17° 46′E",
+      "lon": "46.833333",
+      "lat": "17.766667",
+      "pays": "Hongrie",
+      "dimensions": {
+        "superficie": "59200 ha",
+        "longueur": "78 km",
+        "largeur": "15 km",
+        "altitude": "104,8 m",
+        "profondeur": "12,5 m"
+      },
+      "description": "Le lac Balaton est un lac d'eau douce de Hongrie et le lac le plus vaste d'Europe centrale. Ses caractéristiques font de lui une zone de pêche et de tourisme importante. Les villes principales autour du lac sont Siófok - capitale de la région, Badacsony, Balatonboglár, Balatonfüred et Keszthely.",
+      "images": [
+        "balaton1.jpg",
+        "balaton2.jpg",
+        "balaton3.jpg",
+        "balaton4.jpg",
+        "balaton5.jpg",
+        "balaton6.jpg"
+      ]
+    },
+    {
+      "id": 24,
+      "categories": ["lac"],
+      "nom": "Ohrid",
+      "localisation": "41° 03′N, 20° 42′E",
+      "lon": "41.050000",
+      "lat": "20.700000",
+      "pays": "Macédonie du Nord",
+      "dimensions": {
+        "superficie": "34900 ha",
+        "longueur": "30,4 km",
+        "largeur": "14,8 km",
+        "altitude": "693 m",
+        "profondeur": "288,70 m"
+      },
+      "description": "Le lac d'Ohrid est un lac sur la frontière entre l'Albanie et la Macédoine du Nord. Il a une superficie de 358 km². C'est le lac le plus profond des Balkans (288 m) mais aussi un des plus vieux du monde. Alimenté par le lac Prespa, situé au sud-est, grâce à des infiltrations, il s'évacue au nord par le Drin noir, qui se jette dans la mer Adriatique. Il est connu pour son eau claire, qui est quelque fois transparente jusqu'à une profondeur de 22 mètres, et pour sa faune riche et variée, qui comprend des espèces endémiques. Son nom vient de la ville d'Ohrid, sur la rive du lac. Il a été classé au Patrimoine mondial de l'humanité pour son caractère naturel exceptionnel en 1979, puis, en 1980, le label a été étendu afin de classer également des lieux historiques et culturels.",
+      "images": [
+        "ohrid1.jpg",
+        "ohrid2.jpg",
+        "ohrid3.jpg",
+        "ohrid4.jpg",
+        "ohrid5.jpg",
+        "ohrid6.jpg"
+      ]
+    },
+    {
+      "id": 25,
+      "categories": ["lac"],
+      "nom": "Braies",
+      "localisation": " 46° 41′ 38″N, 12° 05′ 07″E",
+      "lon": "46.693889",
+      "lat": "12.085278",
+      "pays": "Italie",
+      "dimensions": {
+        "superficie": "31 ha",
+        "longueur": "1,2km ",
+        "largeur": "400 m ",
+        "altitude": "1 496 m",
+        "profondeur": "36 m"
+      },
+      "description": "Le lac de Braies,en italien : lago di Braies, en allemand : Pragser Wildsee, est un petit lac alpin situé dans le val de Braies à 1 496 m d'altitude, dans la municipalité de Braies, à environ 97 kilomètres de Bolzano. Situé au pied de l’imposante paroi rocheuse de la Croda del Becco (2 810 m), le lac se trouve dans les Dolomites de Braies, dans le parc naturel Fanes - Sennes et Braies. Il a une superficie d'environ 31 hectares, avec une longueur de 1,2 km et une largeur de 300 à 400 mètres. C'est l'un des lacs les plus profonds de la province autonome de Bolzano, avec une profondeur maximale de 36 mètres et une profondeur moyenne de 17 mètres. Sa création est due au barrage du Rio Braies, impliqué par un glissement de terrain. Le lac est une destination touristique qui attire pour la couleur bleue intense de ses eaux claires et pour le paysage naturel dans lequel il est plongé. En fait, le lac est entouré sur trois côtés par des pics dolomitiques, dont le Croda del Becco. ",
+      "images": [
+        "braies1.jpg",
+        "braies2.jpg",
+        "braies3.jpg",
+        "braies4.jpg",
+        "braies5.jpg",
+        "braies6.jpg",
+        "braies7.jpg",
+        "braies8.jpg"
+      ]
+    },
+    {
+      "id": 26,
+      "categories": ["lac"],
+      "nom": "Garde",
+      "localisation": "45° 33′ 19″N, 10° 37′ 30″E",
+      "lon": "45.555278",
+      "lat": "10.625000",
+      "pays": "Italie",
+      "dimensions": {
+        "superficie": "36800 ha",
+        "longueur": "51,6 km",
+        "largeur": "17,2 km",
+        "altitude": "65 m",
+        "profondeur": "346 m"
+      },
+      "description": "Le lac de Garde (en italien : lago di Garda ou lago di Benaco) est un lac des Alpes italiennes. Avec une superficie de 368 km² et une profondeur maximale de 346 m, il est le plus grand lac d'Italie. Il est situé dans le nord du pays, à mi-chemin entre Venise et Milan. Il se trouve dans une région alpine et a été formé par des glaciers à la fin du dernier âge glaciaire. Le lac est partagé entre les provinces de Vérone (au sud-est), Brescia (au sud-ouest) et Trente (au nord).",
+      "images": [
+        "garda1.jpg",
+        "garda2.jpg",
+        "garda3.jpg",
+        "garda4.jpg",
+        "garda5.jpg",
+        "garda6.jpg"
+      ]
+    },
+    {
+      "id": 27,
+      "categories": ["lac", "grotte"],
+      "nom": "Melissani",
+      "localisation": "38°15′25″N, 20°37′25″E",
+      "lon": "38.256944",
+      "lat": "20.623611",
+      "pays": "Grèce",
+      "dimensions": {
+        "longueur": "160 m ",
+        "largeur": "40 m ",
+        "altitude": "1 m",
+        "profondeur": "39 m",
+        "hauteur": "36m"
+      },
+      "description": "La grotte de Melissani ou lac de Melissani, est une grotte sur l'île Ionienne de Céphalonie, Grèce. Elle est située près du village de Karavomilos, à environ 2 km au nord-ouest de Sami, environ 5 km au sud-est de Agia Effimia. Elle est entourée de forêt, avec les flancs du mont Roudi à l'ouest. Elle est proche de la route qui lie Sami à Agia Effimia et à la partie nord de l'île. La grotte (et le lac) est en deux parties. Le plafond de la grotte est ouvert dans l'une d'elles, on peut voir le ciel. Le lac est d'une belle couleur changeant selon les rayons du soleil du turquoise à l'indigo ou au violet, avec le meilleur effet vers midi quand le soleil donne directement sur les eaux.",
+      "images": [
+        "melissani1.jpg",
+        "melissani2.jpg",
+        "melissani3.jpg",
+        "melissani4.jpg",
+        "melissani5.jpg",
+        "melissani6.jpg"
+      ]
+    },
+    {
+      "id": 28,
+      "categories": ["lac", "cascade", "forêt"],
+      "nom": "Plitvice",
+      "localisation": "44° 52′ 40″ N, 15° 36′ 52″ E",
+      "lon": "44.877778",
+      "lat": "15.614444",
+      "pays": "Croatie",
+      "dimensions": {
+        "superficie": "294,62 km²"
+      },
+      "description": "Le parc national des lacs de Plitvice, appelé Nacionalni park Plitvička jezera en croate, est un parc national de Croatie qui se situe à mi-chemin entre les villes de Zagreb et Zadar au sein d'un plateau karstique. C'est à la fois le plus ancien des parcs nationaux du sud de l'Europe et le plus étendu de Croatie. Il fut créé le 8 avril 1949 et ajouté sur la liste du Patrimoine mondial de l'UNESCO en 1979. Le parc, d'une superficie de 295 kilomètres carrés, comprend non seulement les lacs de Plitvice, qui forment un ensemble de seize grands lacs, reliés entre eux par 92 cascades ou de petites rivières tourmentées, mais aussi la forêt environnante (forêt de type primitive composée principalement de hêtres et de sapins) où naît la rivière Korana et qui abrite de nombreuses espèces animales et végétales rares dont les représentants les plus connus sont l'ours brun et le loup.",
+      "images": [
+        "plitvice1.jpg",
+        "plitvice2.jpg",
+        "plitvice3.jpg",
+        "plitvice4.jpg",
+        "plitvice5.jpg",
+        "plitvice6.jpg",
+        "plitvice7.jpg"
+      ]
+    },
+    {
+      "id": 29,
+      "categories": ["lac"],
+      "nom": "Lough Tay",
+      "localisation": "53° 06′ 21.7″ N, 6° 16′ 0.4″ W",
+      "lon": "53.106028",
+      "lat": "-6.266778",
+      "pays": "Irlande",
+      "dimensions": {
+        "superficie": "48,1 ha",
+        "altitude": "246 m",
+        "profondeur": "35 m "
+      },
+      "description": "Lough Tay ou le lac Guinness, est un petit lac pittoresque situé sur une propriété privée dans les montagnes de Wicklow en Irlande. Le lac se situe entre les montagnes de Djouce 725 mètres et Luggala 595 mètres, et est dominé par les falaises de granit orientées à l'est de Luggala.  Le lac est alimenté par la rivière Cloghoge, qui se jette ensuite dans le lac Lough Dan au sud. Lough Tay fait partie du domaine Guinness à Luggala et a un accès public limité. Le village de Kattegat, dans la série Vikings, a trouvé son lieu de tournage près du lac Guinness (une partie est tout de même tournée en studio).",
+      "images": ["lough_tay1.jpg", "lough_tay2.jpg"]
+    },
+    {
+      "id": 30,
+      "categories": ["lac"],
+      "nom": "Cadagno",
+      "localisation": "46°32′59″N 8°42′41″E",
+      "lon": "46.549722",
+      "lat": "8.711389",
+      "pays": "Suisse",
+      "dimensions": {
+        "superficie": "26 ha",
+        "longueur": "842 m",
+        "largeur": "423 m",
+        "altitude": "1921 m",
+        "profondeur": "21 m"
+      },
+      "description": "Le lac Cadagno est un lac méromictique (un lac dont les eaux de surface et de profondeur se mélangent moins d'une fois par an), situé dans la vallée de Piora (canton du Tessin), en Suisse. Étant l'un des rares lacs méromictiques d'Europe, il fait l'objet de nombreuses études scientifiques. La vallée de la Piora - située dans le massif du Saint-Gothard (Alpes suisses centrales) dans le sud de la Suisse près d'Airolo à une altitude de 1921 m au-dessus du niveau de la mer - est une vallée alpine enclavée dont la valeur scientifique est reconnue depuis plus de deux siècles . Dans le passé, le lac était utilisé comme réservoir.",
+      "images": ["cadagno1.jpg", "cadagno2.jpg", "cadagno3.jpg"]
+    },
+    {
+      "id": 31,
+      "categories": ["cascade"],
+      "nom": "Sept Soeurs",
+      "localisation": "62° 06′ 25″ N, 7° 05′ 39″ E",
+      "lon": "62.106944",
+      "lat": "7.094167",
+      "pays": "Norvège",
+      "dimensions": {
+        "hauteur": "410 m ",
+        "largeur": "229 m ",
+        "altitude": "410 m "
+      },
+      "description": "Les Sju Søstre, aussi appelées en bokmål Syv Søstrene, en nynorsk Sju Systrene, toponymes norvégiens signifiant littéralement en français « Sept Sœurs », sont un ensemble de chutes d'eau de Norvège dévalant les parois du Geirangerfjord pour se jeter directement dans le fjord ; cette caractéristique en fait des chutes d'eau côtières. Elles constituent une importante attraction touristique de Norvège, notamment pour les passagers des navires empruntant le Geirangerfjord.",
+      "images": ["7_sisters1.jpg", "7_sisters2.jpg"]
+    },
+    {
+      "id": 32,
+      "categories": ["cascade"],
+      "nom": "Gavarnie",
+      "localisation": "42°41′36″N 0°00′16″W",
+      "lon": "42.693333",
+      "lat": "-0.004444",
+      "pays": "France",
+      "dimensions": {
+        "hauteur": "423 m",
+        "largeur": "15 m"
+      },
+      "description": "La cascade de Gavarnie, également appelée grande cascade de Gavarnie, est une chute d'eau du cirque de Gavarnie, cirque glaciaire localisé dans la partie centrale des Pyrénées françaises (département des Hautes-Pyrénées) et appartenant au parc national des Pyrénées. Avec ses 423 mètres de hauteur, la cascade de Gavarnie est la plus haute chute d'eau de France métropolitaine, et l'une des plus importantes d'Europe.",
+      "images": ["gavarnie1.jpg", "gavarnie2.jpg"]
+    },
+    {
+      "id": 33,
+      "categories": ["cascade"],
+      "nom": "High Force",
+      "localisation": "54°39′1″N 2°11′15″W",
+      "lon": "54.650278",
+      "lat": "-2.187500",
+      "pays": "Royaume-Uni",
+      "dimensions": {
+        "hauteur": "21 m"
+      },
+      "description": "High Force est une cascade sur la rivière Tees, près de Middleton-in-Teesdale, Teesdale, Angleterre. La cascade se trouve dans la zone de beauté naturelle exceptionnelle des Pennines du Nord et dans le géoparc européen. La cascade se trouve sur la frontière historique du comté entre le North Riding of Yorkshire sur la rive sud et le comté de Durham sur la rive nord. L'ensemble de la rivière Tees plonge de 21 m au-dessus d'un précipice (un bord de falaise presque vertical) en deux temps. Après de fortes pluies, la rivière coulera également sur le canal généralement sec du côté droit, créant deux chutes. Très occasionnellement, le niveau de la rivière sera suffisamment élevé pour s'écouler sur la section centrale de la roche. Lors des hivers rigoureux, on sait que les chutes gèlent, créant des formations de glace en forme de cathédrale.",
+      "images": ["high_force1.jpg", "high_force2.jpg"]
+    },
+    {
+      "id": 34,
+      "categories": ["cascade"],
+      "nom": "Krimml",
+      "localisation": "47° 11′ 53″ N, 12° 10′ 17″ E",
+      "lon": "47.198056",
+      "lat": "12.171389",
+      "pays": "Autriche",
+      "dimensions": {
+        "hauteur": "385 m",
+        "altitude": "1 090 m"
+      },
+      "description": "Les cascades de Krimml (en allemand : Krimmler Wasserfälle) sont les plus hautes cascades d'Autriche avec une hauteur totale de 385 m. Elles sont situés à la périphérie de la ville de Krimml (land de Salzbourg), dans le parc national Hohe Tauern. Elles sont formées par le Krimmler Ache. L'eau coule ensuite dans la Salzach et atteint finalement l'embouchure de l'Inn. Le torrent, après avoir parcouru un vallon suspendu à 1 470 m d'altitude, se précipite en trois cascades de 145 m, 100 m et 140 m. Le fait que les niveaux de cascade aient été préservés à cette altitude s’explique par le fait que la cascade se situe sur une zone où la roche (granite) est particulièrement dure (fenêtre des Tauern).",
+      "images": [
+        "krimml1.jpg",
+        "krimml2.jpg",
+        "krimml3.jpg",
+        "krimml4.jpg",
+        "krimml5.jpg",
+        "krimml6.jpg",
+        "krimml7.jpg"
+      ]
+    },
+    {
+      "id": 35,
+      "categories": ["cascade"],
+      "nom": "Krka",
+      "localisation": "43° 52′ 59″ N, 15° 58′ 59″ E",
+      "lon": "43.883056",
+      "lat": "15.983056",
+      "pays": "Croatie",
+      "dimensions": {
+        "hauteur": "45,7 m",
+        "altitude": "242 m"
+      },
+      "description": "Le parc national de la Krka, s'étend à quelques kilomètres de Šibenik, en Croatie sur près de 109 km². Les chutes de la rivière Krka constituent sa principale attraction. Cette rivière, longue de 72 km, est le plus étonnant des cours d'eau du karst croate. Sur les deux tiers de sa longueur, elle coule dans de profonds canyons en se frayant sa voie vers la mer Adriatique. Le parc national de la Krka compte sept chutes le long de son parcours, pour une altitude maximale de 242 m. Le plus haut d'entre eux est la cascade de Skradin (Skradinski Buk) avec 17 gradins d’une hauteur totale de 45,7 m.",
+      "images": [
+        "krka1.jpg",
+        "krka2.jpg",
+        "krka3.jpg",
+        "krka4.jpg",
+        "krka5.jpg",
+        "krka6.jpg"
+      ]
+    },
+    {
+      "id": 36,
+      "categories": ["cascade"],
+      "nom": "Krushuna",
+      "localisation": "43° 14′ 36″ N, 25° 02′ 00″ E",
+      "lon": "43.243333",
+      "lat": "25.033333",
+      "pays": "Bulgarie",
+      "dimensions": {
+        "hauteur": "15 m",
+        "altitude": "195 m"
+      },
+      "description": "Les chutes de Krushuna (Крушунски водопади) sont une série de chutes d'eau dans le nord de la Bulgarie, près du village de Krushuna, municipalité de Letnitsa, à 34 km de la ville de Lovech. Ils sont célèbres pour leur paysage pittoresque et sont formés de nombreux travertins. Il y a un chemin touristique menant à la grotte où la rivière jaillit. Il y a deux petites chutes d'eau dans la région, dont l'une s'appelle Malkata Maara. Quelques autres grottes se trouvent également dans les environs - Urushka Maara, Gornik, Devetashka.Les vestiges du monastère Hesychast Krushuna du 13 au 14ème siècle datant du Second Empire bulgare se trouvent également à proximité.",
+      "images": ["krushuna1.jpg", "krushuna2.jpg"]
+    },
+    {
+      "id": 37,
+      "categories": ["cascade"],
+      "nom": "Menzenschwand",
+      "localisation": "47° 50′ 24.0″ N, 8° 03′ 46.1″ E",
+      "lon": "47.840000",
+      "lat": "8.062806",
+      "pays": "Allemagne",
+      "dimensions": {
+        "hauteur": "30 m"
+      },
+      "description": "Le Menzenschwander wasserfälle est une cascade, située dans la forêt Noire, dans une petite gorge (d'Alb) près du village de Menzenschwand dans la région du Bade-Wurtemberg, en Allemagne. Dans la gorge d'Alb s'écoule 3 petites cascades donc l'une d'entre elles est artificielle. Les cascades s'écoulent jusque dans le résoir du barrage de Menzenschwand (Menzenschwander Kluse) qui était utilisé, autrefois, de stockage pour l'eau de rafting.",
+      "images": ["menzenschwand1.jpg", "menzenschwand2.jpg"]
+    },
+    {
+      "id": 38,
+      "categories": ["cascade"],
+      "nom": "Seljalandsfoss",
+      "localisation": "63°36′57″N 19°59′34″W",
+      "lon": "63.615833",
+      "lat": "-19.992778",
+      "pays": "Islande",
+      "dimensions": {
+        "hauteur": "65 m"
+      },
+      "description": "Seljalandsfoss est une chute d'eau du sud de l'Islande mesurant 65 mètres de hauteur. Elle se trouve à proximité de la chute de la Skogafoss. Sa particularité est la possibilité de passer derrière ce qui offre un nouveau point de vue et la rend plus impressionnante. Au coucher de soleil, la lumière rend l'eau d'une couleur orangée se fondant ainsi à la roche derrière celle-ci. L'eau de la cascade provient de la fonte des glaces de l’Eyjafjallajökull.",
+      "images": [
+        "seljalandsfoss1.jpg",
+        "seljalandsfoss2.jpg",
+        "seljalandsfoss3.jpg",
+        "seljalandsfoss4.jpg",
+        "seljalandsfoss5.jpg",
+        "seljalandsfoss6.jpg",
+        "seljalandsfoss7.jpg",
+        "seljalandsfoss8.jpg",
+        "seljalandsfoss9.jpg"
+      ]
+    },
+    {
+      "id": 39,
+      "categories": ["cascade"],
+      "nom": "Skogafoss",
+      "localisation": "63° 31′ 47″ N, 19° 30′ 50″ W",
+      "lon": "63.529722",
+      "lat": "-19.513889",
+      "pays": "Islande",
+      "dimensions": {
+        "hauteur": "62 m",
+        "largeur": "25 m"
+      },
+      "description": "Skógafoss (Skógá étant le nom de la rivière, signifiant « forêt », et foss signifiant « la chute d'eau ») est une cascade située sur la rivière Skógá, dans le petit village de Skógar, dans le sud de l'Islande. La rivière se jette des falaises et tombe de 62 mètres en formant une chute d'une largeur de quelque 25 mètres. La chute est l'une des plus célèbres et des plus visitées du pays. À l'est de la chute, une piste monte jusqu'au Fimmvörðuháls, un col entre les glaciers Eyjafjallajökull et Mýrdalsjökull. Après, le chemin descend vers Þórsmörk et continue jusqu'au Landmannalaugar, un des plus célèbres et impressionnants sites islandais.",
+      "images": [
+        "skogafoss1.jpg",
+        "skogafoss2.jpg",
+        "skogafoss3.jpg",
+        "skogafoss4.jpg",
+        "skogafoss5.jpg",
+        "skogafoss6.jpg",
+        "skogafoss7.jpg",
+        "skogafoss8.jpg"
+      ]
+    },
+    {
+      "id": 40,
+      "categories": ["cascade"],
+      "nom": "Staubbach",
+      "localisation": "46° 35′ 22.74″ N, 7° 54′ 19.82″ E",
+      "lon": "46.589650",
+      "lat": "7.905506",
+      "pays": "Suisse",
+      "dimensions": {
+        "hauteur": "297 m"
+      },
+      "description": "La chute de Staubbach est une cascade en Suisse, située juste à l'ouest au-dessus de Lauterbrunnen dans les hautes terres bernoises. La cascade tombe à 297 mètres d'une vallée suspendue qui se termine par des falaises en surplomb au-dessus de la Weisse Lütschine.Le ruisseau, en atteignant le bord des parois rocheuses de la vallée, forme une cascade si haute qu'elle est presque perdue dans les embruns avant d'atteindre le niveau de la vallée. Après la pluie, et au début de la saison, alimentée par la fonte des neiges, la chute de Staubbach est un endroit très frappant. La force du ruisseau au-dessus de la chute à de certains moments est suffisante pour transporter l'eau claire du précipice, et toute la masse descend dans un état de poussière liquide, entre embruns et nuages, qui oscille d'avant en arrière avec la brise la plus douce.",
+      "images": ["staubbach1.jpg", "staubbach2.jpg", "staubbach3.jpg"]
+    }
+  ]
+}

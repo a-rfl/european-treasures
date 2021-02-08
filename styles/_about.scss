@@ -1,0 +1,93 @@
+// Version mobile
+.about {
+  .about_img {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+  .about_text {
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 15px;
+    .about_text_subtitle {
+      text-align: right;
+    }
+    .about_text--bold {
+      font-weight: bold;
+    }
+    .about_text--color-bold {
+      font-weight: bold;
+      color: #e85a4f;
+    }
+    .about_text--italic {
+      font-style: italic;
+    }
+    h4 {
+      margin-right: 75px;
+    }
+  }
+}
+// Versions tablettes et web
+@media only screen and (min-width: 768px) {
+  .about {
+    .about_img {
+      position: fixed;
+      top: 0;
+      z-index: -1;
+      height: 100%;
+      img {
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .about_text {
+      position: absolute;
+      bottom: 0;
+      right: 25px;
+      width: 85%;
+      margin-top: 0;
+      padding: 10px 10px 0 5px;
+      background-color: rgba(234, 231, 220, 0.78);
+      line-height: 30px;
+      h4 {
+        margin: 10px 75px 5px 0;
+      }
+      p {
+        padding: 16px;
+        margin: 0;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 992px) {
+  .about {
+    .about_text {
+      right: 55px;
+      width: 60%;
+      padding: 15px 15px 3vh 5px;
+      line-height: 24px;
+      p {
+        padding: 16px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .about {
+    .about_text {
+      width: 58%;
+      padding: 20px 20px 3.5vh 20px;
+      line-height: 28px;
+      h4 {
+        margin: 10px 75px 10px 0;
+      }
+      p {
+        padding: 15px;
+      }
+    }
+  }
+}

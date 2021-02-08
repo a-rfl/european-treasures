@@ -1,2 +1,13 @@
-// @import "@fortawesome/fontawesome-free/css/all.css";
+@import "@fortawesome/fontawesome-free/css/all.css";
 // @import "node_modules/bootstrap/scss/bootstrap";
+@import "leaflet/dist/leaflet.css";
+@import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
+@import "./static/fonts/stylesheet.css";
+@import "./styles/basic";
+@import "./styles/header";
+@import "./styles/about";
+@import "./styles/homepage";
+@import "./styles/lieu";
+@import "./styles/contact";
+@import "./styles/map";
+@import "./styles/destinations";

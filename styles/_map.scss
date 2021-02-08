@@ -1,0 +1,101 @@
+.map1 {
+  .legend {
+    position: absolute;
+    bottom: 4vh;
+    width: 18vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-left: 2.5vw;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+    h5 {
+      padding: 10px;
+      padding-bottom: 0;
+      color: $dark;
+    }
+    div {
+      padding-top: 10px;
+    }
+  }
+  #osm-map {
+    width: 70vw;
+    height: 80vh;
+    margin-left: 23vw;
+    z-index: 0;
+  }
+
+  @media screen and (max-width: 992px ) {
+    #osm-map {
+      width: 95vw;
+      height: 60vh;
+      margin-left: -2.5vw;
+      
+    }
+    .legend {
+      top: 83vh;
+      width: 95vw;
+       height: 55vh;
+      margin-left: -2.5vw;
+      height: vh;
+      padding-left: 10%;
+      
+    }
+  }
+  @media screen and (max-width: 776px ) {
+    #osm-map {
+      width: 95vw;
+      height: 75vh;
+      margin-left: -2.5vw;
+      
+    }
+    .legend {
+      top: 98vh;
+      width: 95vw;
+       height: 55vh;
+      margin-left: -2.5vw;
+      height: vh;
+      padding-left: 10%;
+      
+    }
+  }
+   @media screen and (max-height: 414px ) {
+    #osm-map {
+      width: 95vw;
+      height: 60vh;
+      margin-left: -2.5vw;
+      
+    }
+    .legend {
+      top: 100vh;
+      width: 95vw;
+       height: 100vh;
+      margin-left: -2.5vw;
+      height: vh;
+      padding-left: 10%;
+      
+    }
+  }
+
+  #volcano,
+  #lake,
+  #waterfalls,
+  #cave,
+  #forest:hover {
+    cursor: pointer;
+  }
+}
+.popup{
+  
+  h6{
+    font-size: 18px;
+    color: $light-red;
+    margin: 10px;
+  }
+  p{
+    padding: 0;
+    font-size: 18px;
+  }
+  &:hover{
+    cursor: pointer;
+  }
+}

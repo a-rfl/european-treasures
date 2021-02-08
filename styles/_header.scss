@@ -1,0 +1,263 @@
+
+header {
+  position: fixed;
+  height: 80px;
+  background-color: rgb(29, 26, 26, 0.75);
+  width: 100%;
+
+  .container .navbar ._Menus-show {
+    left: 0;
+  }
+}
+.container {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.container .logo a {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  padding-top: 5px;
+  
+}
+
+.container .logo a img {
+  max-height: 70px;
+}
+
+.contact-mob{
+  padding-right: 20px;
+}
+.container .navbar {
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+.container .navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 100%;
+}
+.container .navbar ul li.flex-grow {
+  flex-grow: 1;
+}
+
+.container .navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: block;
+  width: 160px;
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  
+}
+
+
+.container .navbar ul li a:hover {
+  
+  background-color: transparent;
+  color: $light-red;
+  width: 160px;
+  cursor: pointer;
+}
+
+.container .navbar ul .close {
+  display: none;
+}
+
+.container .navbar ul .close span {
+  font-size: 40px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.container .navbar .icon-bar {
+  padding: 10px 8px;
+  width: 50px;
+  height: 50px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right:10px ;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.container .navbar .icon-bar i {
+
+  background-color: #ffffff;
+  height: 3px;
+}
+.logo-menu-mob{
+  display:none;
+}
+#about, #contact, #home, #destinations{
+  padding-top: 7px;
+}
+@media only screen and (max-width: 1112px) {
+.container .navbar ul li a {
+  display: inline;
+  padding-right: 40px;
+  font-size: 16px;
+}
+.container .navbar ul  {
+  padding-left: 15px;
+}
+.container .logo a{
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+  
+}
+
+@media only screen and (max-width: 992px) {
+.container .navbar ul li a {
+  padding-right: 10px;
+}
+}
+@media only screen and (max-width: 768px) {
+  #about, #contact, #home, #destinations{
+  padding-top: 0;
+}
+  .flex-grow{
+    display: none;
+  }
+
+
+  .container .logo {
+    width: 10%;
+  }
+
+ 
+
+  .container .navbar ul li a:hover {
+    
+    background-color: transparent;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+  }
+  
+  
+  .container {
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .container .logo {
+    flex: 1;
+  }
+
+  .container .navbar {
+    flex: 0;
+  }
+
+  .container .navbar ul {
+
+  
+    position: fixed;
+    left: 100%;
+    top: -16px;
+    flex-direction: column;
+    justify-content: center;
+    background-color:$background;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    transition: left 0.3s;
+  
+  }
+
+  .container .navbar ul li a {
+    display:block;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: rgba(68, 67, 66, 0.2);
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    border-radius:10px ;
+    font-size: 18px;
+    color: white;
+    
+  }
+  .overlay{
+    margin: auto;
+    margin-bottom: 15px;
+    width: 60%;
+    height: 70px;
+    line-height: 70px;
+    border: 0.5px solid gray;
+    border-radius:10px ;
+    font-size: 18px;
+    color: white;
+}
+   
+
+  .container .navbar ul .close {
+    span{
+  border: none;
+}
+     display: block;
+     position: absolute;
+     top:2vh;
+    right: 5px;
+     padding: 0px 50px;
+      
+  }
+
+  .container .navbar .icon-bar {
+    display: flex;
+    margin-bottom: 30%;
+    
+  }
+
+  .logo-menu-mob{
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 3%;
+  width: 200px;
+  height: 200px;
+  background-image: url('static/logo/logo-small-black.png');
+  background-size: cover;
+  background-position: center;
+}
+.home-mob{
+background-image: url('static/images/almsee3.jpg');
+background-size: cover;
+background-position: center;
+}
+.destinations-mob{
+background-image: url('static/images/balaton1.jpg');
+background-size: cover;
+background-position: center;
+}
+.about-mob{
+background-image: url('static/images/melissani5.jpg');
+background-size: cover;
+background-position: center;
+}
+.contact-mob{
+background-image: url('static/img-pages/btn4.jpg');
+background-size: cover;
+background-position: center;
+}
+}
+@media only screen and (max-height: 414px) {
+
+    .logo-menu-mob{
+  display: none;
+
+}
+}
+

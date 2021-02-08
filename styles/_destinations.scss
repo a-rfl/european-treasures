@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+//Container of the h2 and filters menu
+.destinations-title {
+  position: sticky;
+  top: 0;
+  transform: translateX(-50%);
+  width: 35%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.destinations-header {
+  position: fixed;
+  top: 80px;
+  z-index: 1;
+  width: 100%;
+}
+// Filters menu
+.filters {
+  width: 100%;
+  height: 55px;
+  background-color: #8e8d8a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  // Select
+  select {
+    margin: 0 30px;
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    border-width: 0 .5px;
+    border-radius: 5px;
+    // -webkit-appearance: none;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+     &:hover {
+      background-color: $light-red;
+      border-color: transparent;
+    }
+    option {
+      background-color: #eae7dc;
+      color: #1d1a1a;
+    }
+  }
+  // Random button
+  .btn-filter {
+    margin: 0 30px;
+    color: white;
+    background-color: transparent;
+    padding: 5px 10px;
+    border: 0.5px solid white;
+    border-width: 0 0.5px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+  
+
+    &:hover {
+      background-color: $light-red;
+      border-color: transparent;
+    }
+  }
+}
+.barrier{
+  width: 100%;
+  height: 5vh;
+}
+// Section displaying the different destinations
+section.destinations {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 2% auto 0 auto;
+  .destination {
+    width: 22%;
+    padding-top: 22%;
+    background-size: cover;
+    margin: 0 10px 25px 10px;
+    position: relative;
+    border: 0.2px solid gray;
+    h3 {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.527);
+      width: 100%;
+      height: 65px;
+      line-height: 65px;
+      top: 68%;
+    }
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+@media only screen and (max-width: 1348px) {
+  section.destinations {
+    .destination {
+      h3 {
+        top: 63%;
+      }
+    }
+  }
+}
+// Mediaqueries
+@media only screen and (max-width: 1200px) {
+  .filters {
+    select {
+     // width: 10%;
+    }
+    .random {
+      padding: 5px 10px;
+      font-size: 16px;
+    }
+  }
+  section.destinations {
+    .destination {
+      h3 {
+        top: 65%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+// Tablet
+@media only screen and (max-width: 992px) {
+  .filters {
+    select {
+      //width: 12%;
+    }
+    .random {
+      padding: 5px 10px;
+      //font-size: 16px;
+    }
+  }
+  section.destinations {
+    .destination {
+      width: 30%;
+      padding-top: 30%;
+      margin: 0 5px 25px 5px;
+      h3 {
+        top: 65%;
+      }
+    }
+  }
+  .barrier{
+ 
+  height: 7vh;
+}
+}
+// Smartphone
+@media only screen and (max-width: 767px) {
+  .filters {
+    .map{
+      font-size: 14px;
+    }
+    select {
+      margin: 0 10px;
+      font-size: 14px;
+     // width: 27%;
+    }
+    .random {
+      margin: 0 10px;
+      padding: 5px 10px;
+      font-size: 14px;
+      line-height: 12px;
+    }
+    .block-map {
+      margin: 0 10px;
+    }
+  }
+  section.destinations {
+    .destination {
+      width: 45%;
+      padding-top: 45%;
+      margin: 0 5px 25px 5px;
+      h3 {
+        top: 60%;
+        height: 45px;
+        line-height: 45px;
+        font-size: 15px;
+      }
+    }
+  }
+}

@@ -42,7 +42,7 @@ const randomPlace = (arr) => {
   }
 };
 
-$.get('http://localhost:3000/lieux').then((data) => {
+$.get('https://obscure-waters-94665.herokuapp.com/lieux').then((data) => {
   const lieux = data;
   // Première page visible à l'arrivée sur le site
   $('main').html(homepage);

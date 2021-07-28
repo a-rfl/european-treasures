@@ -14,7 +14,7 @@ import { sectionLieu } from '../services/section-lieu';
 
 // extracting data with json server
 let datas = '';
-$.get('http://localhost:3000/lieux').then((infos) => {
+$.get('https://obscure-waters-94665.herokuapp.com/lieux').then((infos) => {
   datas = infos;
 });
 // creation of the map with mapbox

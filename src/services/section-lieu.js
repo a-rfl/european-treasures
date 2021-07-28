@@ -1,6 +1,5 @@
 export const sectionLieu = (arr, index) => {
   const photos = arr[index].images;
-  console.log(photos.length);
   let lieu = `
  <section class="lieu">`;
   lieu += `

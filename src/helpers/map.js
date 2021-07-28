@@ -37,9 +37,6 @@ export const newMap = function () {
   );
   carte.addLayer(myLayer);
 
-  // $.get('http://localhost:3000/lieux').then((datas) => {
-  //   console.table(datas);
-
   // creating layers for different groups of places using different markers
 
   let newIcon = '';
@@ -139,10 +136,9 @@ export const newMap = function () {
       carte.addLayer(caveGroup);
     }
   });
-  // });
+
   carte.on('popupopen', function () {
     $('.popup').on('click', function () {
-      console.log($(this).attr('id'));
       const id = $(this).attr('id');
       $('main').html(sectionLieu(datas, id));
       const slider = tns({

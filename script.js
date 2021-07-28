@@ -30,16 +30,23 @@ const carousel = function () {
     lazyload: true,
     controlsContainer: '#customize-controls',
   });
+  return slider;
 };
 const randomPlace = (arr) => {
   // Retourne un index aléatoirement et le stocke dans la variable indexPlace
   const indexPlace = randomIndex(arr);
   // Remplace le contenu de la balise main par une section de lieu
-  // Le lieu est récupéré dans la liste grâce à l'index stockée dans indexPlace
   $('main').html(sectionLieu(arr, indexPlace));
   if (arr[indexPlace].images.length > 2) {
     carousel();
   }
+};
+
+const goTo = (element, component) => {
+  $(element).on('click', () => {
+    $('main').html(component);
+    $('main').scrollTop(0);
+  });
 };
 
 $.get('https://obscure-waters-94665.herokuapp.com/lieux').then((data) => {
@@ -50,45 +57,28 @@ $.get('https://obscure-waters-94665.herokuapp.com/lieux').then((data) => {
   $('.menu').html(header);
 
   // Action sur les liens du header
-  /* HOMEPAGE */
-  $('#home').on('click', () => {
-    $('main').html(homepage);
-    $('main').scrollTop(0);
-  });
-  $('#small-logo').on('click', () => {
-    $('main').html(homepage);
-    $('main').scrollTop(0);
-  });
+  goTo('#home', homepage);
+  goTo('#small-logo', homepage);
+  goTo('#about', sectionAbout);
+  goTo('#contact', sectionContact);
+
   // Fonction d'event au click sur le bouton de la homepage
   $('body').on('click', '.home_btn', () => {
     randomPlace(lieux);
-  });
-
-  /* ABOUT */
-  $('#about').on('click', () => {
-    $('main').html(sectionAbout());
-    $('main').scrollTop(0);
-  });
-  /* CONTACT */
-  $('#contact').on('click', () => {
-    $('main').html(sectionContact());
-    $('main').scrollTop(0);
   });
 
   const render = (arr) => {
     /* DESTINATIONS */
     $('#destinations').on('click', () => {
       $('main').html([headerDestinations(), contentDestinations(arr)]);
-
+      $('main').scrollTop(0);
       // -- FILTERS --
       // Button random place
-      // Display a random place when clicked
       $('.random').on('click', () => {
         randomPlace(arr);
       });
 
       // Button displaying map
-      // Display map section when clicked
       $('.map').on('click', () => {
         sectionMap();
         newMap();
@@ -105,7 +95,6 @@ $.get('https://obscure-waters-94665.herokuapp.com/lieux').then((data) => {
           $('.destinations').html(contentDestinations(contentSearched));
         }
       });
-      $('main').scrollTop(0);
     });
   };
 
@@ -121,14 +110,12 @@ $.get('https://obscure-waters-94665.herokuapp.com/lieux').then((data) => {
   });
 
   // Button random on section lieu
-  // Display a random place
   $('body').on('click', '#btn-lieu_random', () => {
     randomPlace(lieux);
     $('main').scrollTop(0);
   });
 
   // Button "voir les autres destinations"
-  // Display the destinations sections
   $('body').on('click', '#btn-lieu_back-destinations', () => {
     $('#destinations').click();
   });

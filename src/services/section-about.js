@@ -5,7 +5,7 @@ export const sectionAbout = () => {
   const about = `<section class="about">
         <h2>a propos</h2>
         <div class="about_img">
-            <img src="img-pages/img-about.jpg" alt="Cala Gonone, Italie"/>
+            <img src="img-pages/img-about.jpg" alt="Cala Gonone, Italie" loading="lazy"/>
         </div>
         <div class="about_text">
             <h4 class="about_text_subtitle">Qui sommes-nous ?</h4>

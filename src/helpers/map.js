@@ -48,7 +48,7 @@ export const newMap = function () {
 
   for (const data of datas) {
     const index = datas.indexOf(data);
-    const newPopup = `<div id="${index}" class='popup' ><h6>${data.nom}</h6><img style="width:300px"src="images/${data.images[0]}"><p>Vous voulez en savoir plus</p></div>`;
+    const newPopup = `<div id="${index}" class='popup' ><h6>${data.nom}</h6><img style="width:300px"src="images/${data.images[0]}" loading="lazy" ><p>Vous voulez en savoir plus</p></div>`;
     if (data.categories[0] === 'volcan') {
       newIcon = volcanoIcon;
       const volcanoMarker = L.marker([data.lon, data.lat], { icon: newIcon });

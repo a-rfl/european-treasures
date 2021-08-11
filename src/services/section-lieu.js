@@ -65,7 +65,7 @@ export const sectionLieu = (arr, index) => {
   <div class="galerie">`;
 
   for (let i = 0; i < selectedPlace.images.length; i++) {
-    lieu += `<div class="galerie_img"><img src="images/${selectedPlace.images[i]}" alt="${selectedPlace.nom}" class="image"/></div>`;
+    lieu += `<div class="galerie_img"><img src="images/${selectedPlace.images[i]}" alt="${selectedPlace.nom}" class="image" loading="lazy" /></div>`;
   }
   lieu += `</div>
     <div>
@@ -85,7 +85,7 @@ export const sectionLieu = (arr, index) => {
     </div>
 
       <div class="lieu_text_partie2_img">
-        <img src="images/${selectedPlace.images[1]}" alt="${selectedPlace.nom}" class="img"/>
+        <img src="images/${selectedPlace.images[1]}" alt="${selectedPlace.nom}" class="img" loading="lazy" />
       </div>
          
       <div class="lieu_text_partie2_text">

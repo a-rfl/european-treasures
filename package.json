@@ -5,30 +5,30 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "server": "json-server --watch places.json"
+    "server": "json-server --watch places.json",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.1",
-    "axios": "0.20.0",
-    "bootstrap": "4.5.3",
+    "axios": "^0.21.1",
     "helpers": "^0.0.6",
     "jquery": "3.5.1",
     "json-server": "^0.16.3",
     "leaflet": "^1.7.1",
     "leaflet-defaulticon-compatibility": "^0.1.1",
     "map": "^1.0.1",
-    "sour": "^3.2.0",
-    "src": "^1.1.2",
+    "sour": "^2.2.3",
+    "src": "^1.0.0",
     "tiny-slider": "^2.9.3"
   },
   "devDependencies": {
     "eslint": "7.11.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-plugin-import": "2.22.1",
-    "parcel-bundler": "1.12.4",
+    "parcel-bundler": "^1.12.5",
     "parcel-plugin-static-files-copy": "2.5.0",
     "sass": "1.27.0"
   }

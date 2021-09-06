@@ -11,7 +11,8 @@
   transform: translate(-50%, -50%);
   .home_logo {
     display: block;
-    height: 45vh;
+    width: 40vh;
+    height: 40vh;
     margin: auto;
     margin-top: 3.5vh;
   }
@@ -44,7 +45,6 @@
     .home {
       .home_logo {
         height: auto;
-        width: 33%;
         margin-top: 18vh;
       }
       .home_btn {
@@ -64,7 +64,6 @@
     .home {
       .home_logo {
         height: auto;
-        width: 40%;
         margin-top: 25vh;
       }
       h1 {
@@ -84,8 +83,9 @@
     .home {
       .home_logo {
         height: auto;
-        width: 60vw;
-        margin-top: 22vh;
+        width: 32vh;
+        height: 32vh;
+        margin-top: 25.5vh;
       }
       h1 {
         font-size: 38px;
@@ -103,18 +103,18 @@
   }
 }
 @media only screen and (max-height: 414px) {
-
     main {
     .home {
       .home_logo {
         height: auto;
-        width: 23vw;
+        width: 20vw;
+        height: 20vw;
         margin-top: 17vh;
       }
       h1 {
-        font-size: 33px;
-        margin-top: -4vh;
-        margin-bottom: -2vh;
+        font-size: 30px;
+        margin-top: 4vh;
+        margin-bottom: 2vh;
       }
     }
   }

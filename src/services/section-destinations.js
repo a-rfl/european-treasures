@@ -1,6 +1,6 @@
 // (Array) => String
 export const headerDestinations = () => {
-  const destinations = `
+  const menuDestinations = `
     <h2 class="destinations-title" >Destinations</h2>
     <div class="destinations-header">
     
@@ -21,12 +21,12 @@ export const headerDestinations = () => {
     </div>
     <div class= "barrier"><div>`;
 
-  return destinations;
+  return menuDestinations;
 };
 
 export const contentDestinations = (arr) => {
   let destinations = '<section class="destinations">';
-  // Loop on the array, to get the first image, the id and the name of each ellement
+  // Loop on the array, to get the first image, the id and the name of each element
   // in the array passed in argument
   arr.forEach((place) => {
     destinations += `

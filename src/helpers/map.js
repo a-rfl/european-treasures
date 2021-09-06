@@ -14,7 +14,7 @@ import { sectionLieu } from '../services/section-lieu';
 
 // extracting data with json server
 let datas = '';
-$.get('http://localhost:3000/lieux').then((infos) => {
+$.get('https://obscure-waters-94665.herokuapp.com/lieux').then((infos) => {
   datas = infos;
 });
 // creation of the map with mapbox
@@ -37,9 +37,6 @@ export const newMap = function () {
   );
   carte.addLayer(myLayer);
 
-  // $.get('http://localhost:3000/lieux').then((datas) => {
-  //   console.table(datas);
-
   // creating layers for different groups of places using different markers
 
   let newIcon = '';
@@ -51,7 +48,7 @@ export const newMap = function () {
 
   for (const data of datas) {
     const index = datas.indexOf(data);
-    const newPopup = `<div id="${index}" class='popup' ><h6>${data.nom}</h6><img style="width:300px"src="images/${data.images[0]}"><p>Vous voulez en savoir plus</p></div>`;
+    const newPopup = `<div id="${index}" class='popup' ><h6>${data.nom}</h6><img style="width:300px"src="images/${data.images[0]}" loading="lazy" ><p>Vous voulez en savoir plus</p></div>`;
     if (data.categories[0] === 'volcan') {
       newIcon = volcanoIcon;
       const volcanoMarker = L.marker([data.lon, data.lat], { icon: newIcon });
@@ -139,10 +136,9 @@ export const newMap = function () {
       carte.addLayer(caveGroup);
     }
   });
-  // });
+
   carte.on('popupopen', function () {
     $('.popup').on('click', function () {
-      console.log($(this).attr('id'));
       const id = $(this).attr('id');
       $('main').html(sectionLieu(datas, id));
       const slider = tns({

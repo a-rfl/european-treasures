@@ -3,8 +3,8 @@ export const header = `
 
 
 <div class="container">
-        <div  id="small-logo"class="logo">
-            <a href="#"><img src="logo/logo-small-white.png" alt="logo"></a>
+        <div  id="small-logo" class="logo">
+            <a href="#"><img src="logo/logo-small-white.png" alt="logo" loading="lazy"></a>
         </div>
     <div class="navbar">
     
